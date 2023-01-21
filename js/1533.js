@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkglivera_webpack_template=self.webpackChunkglivera_webpack_template||[]).push([[1533],{9637:(t,e,n)=>{n.d(e,{Z:()=>c});const c=function(){}},4294:(t,e,n)=>{n.d(e,{Z:()=>c});const c=function(){}},1533:(t,e,n)=>{n.r(e),n.d(e,{default:()=>u});var c=n(4294),a=n(9637);const s=function(){};const u=function(){(0,c.Z)(),(0,a.Z)(),s()}}}]);
