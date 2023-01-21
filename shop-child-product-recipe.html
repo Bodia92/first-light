@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="shop-child-product-recipe">
+  <head>
+    <meta charset="UTF-8">
+    <title>Shop Child Product Recipe</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" href="/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/favicon-144.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <div class="preloader"></div>
+    <header class="header js-header">
+      <div class="header_top">
+        <div class="header_in">
+          <div class="header_top__wrap"><a class="header__logo" href="index.html"><img class="header__logo_img" src="images/footer_logo.svg" alt="logo"></a>
+            <div class="header_top__block">
+              <div class="header_top__menu">
+                <ul class="header_top__menu_list">
+                  <li class="header_top__menu_item">
+                    <div class="header_item">
+                      <div class="header_item__trigger">
+                        <button class="header_item__icon" type="button">
+                          <svg class="icon icon_login icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#login"></use>
+                          </svg>
+                        </button>
+                        <div class="header_item__title">My Account</div>
+                        <button class="header_item__arrow" type="button">
+                          <svg class="icon icon_arrow_header icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="header_item__dropdown header_item__dropdown--style_mod">
+                        <ul class="header_item__dropdown_body">
+                          <li class="header_item__dropdown_item"><a class="header_item__dropdown_link" href="#">Account Dashboard</a></li>
+                          <li class="header_item__dropdown_item"><a class="header_item__dropdown_link" href="#">Log out</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header_top__menu_item">
+                    <div class="header_item">
+                      <div class="header_item__wrap"><a class="header_item__trigger" href="#">
+                          <div class="header_item__icon">
+                            <svg class="icon icon_cart icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                            </svg>
+                            <div class="header_item__count">99</div>
+                          </div>
+                          <div class="header_item__title">Cart</div></a></div>
+                    </div>
+                  </li>
+                  <li class="header_top__menu_item">
+                    <div class="header_item">
+                      <div class="header_item__trigger">
+                        <picture class="header_item__lang">
+                          <source srcset="images/nz_flag.jpg.webp" type="image/webp">
+                          <source srcset="images/nz_flag.jpg" type="image/jpeg"><img class="header_item__lang_img" src="images/nz_flag.jpg" alt="nz_flag" loading="eager">
+                        </picture>
+                        <div class="header_item__title header_item__title--color_mod">NZ</div>
+                        <button class="header_item__arrow" type="button">
+                          <svg class="icon icon_arrow_header icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="header_item__dropdown">
+                        <ul class="header_item__dropdown_body">
+                          <li class="header_item__dropdown_item header_item__dropdown_item--active_mod"><a class="header_item__dropdown_link" href="#">New Zealand</a></li>
+                          <li class="header_item__dropdown_item"><a class="header_item__dropdown_link" href="#">United States</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="header_in">
+          <div class="header_bottom__wrap">
+            <nav class="header_menu">
+              <ul class="header_menu__list">
+                <li class="header_menu__item">
+                  <div class="header_menu__item_wrap js-header-trigger">
+                    <div class="header_menu__label">Shop</div>
+                    <div class="header_menu__icon">
+                      <svg class="icon icon_arrow_header icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                      </svg>
+                    </div>
+                    <div class="header_sublist js-header-sublist">
+                      <div class="header_sublist__body">
+                        <div class="nav_shop__in">
+                          <div class="section_in">
+                            <div class="nav_shop__wrap">
+                              <div class="nav_shop__column">
+                                <div class="nav_shop__title">shop by category</div>
+                                <ul class="nav_shop__items">
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Wagyu</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Venison</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Dairy</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Homewares</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Micronutrients</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Dog Food</a></li>
+                                </ul>
+                              </div>
+                              <div class="nav_shop__column">
+                                <div class="nav_shop__title">steak club</div>
+                                <ul class="nav_shop__items">
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Steak Club Overview</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Sign up </a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">FAQ</a></li>
+                                </ul>
+                              </div>
+                              <div class="nav_shop__column">
+                                <div class="nav_shop__card">
+                                  <picture class="nav_shop__img_w">
+                                    <source srcset="images/header_menu1.jpg.webp" type="image/webp">
+                                    <source srcset="images/header_menu1.jpg" type="image/jpeg"><img class="nav_shop__img" src="images/header_menu1.jpg" alt="card image" loading="eager">
+                                  </picture>
+                                  <div class="nav_shop__card_wrap">
+                                    <div class="nav_shop__card_subtitle">micronutrients</div>
+                                    <h4 class="nav_shop__card_title">Healthy Glow Bone Broth Tonic</h4>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="header_menu__item">
+                  <div class="header_menu__item_wrap js-header-trigger">
+                    <div class="header_menu__label">Our Products</div>
+                    <div class="header_menu__icon">
+                      <svg class="icon icon_arrow_header icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                      </svg>
+                    </div>
+                    <div class="header_sublist js-header-sublist">
+                      <div class="header_sublist__body">
+                        <div class="nav_shop__in">
+                          <div class="section_in">
+                            <div class="nav_shop__wrap">
+                              <div class="nav_shop__column">
+                                <div class="nav_shop__title">Wagyu</div>
+                                <ul class="nav_shop__items">
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">First Light Grass-Fed Wagyu</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Find your Marble Score</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Wagyu Retail Products</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Wagyu Cuts & Butchery </a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Wagyu Recipes</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Wagyu Cooking Tips</a></li>
+                                </ul>
+                              </div>
+                              <div class="nav_shop__column">
+                                <div class="nav_shop__title">Venison</div>
+                                <ul class="nav_shop__items">
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">First Light Venison</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Venison Retail Products</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Venison Recipes</a></li>
+                                  <li class="nav_shop__item"><a class="nav_shop__link" href="#">Venison Cooking Tips</a></li>
+                                </ul>
+                              </div>
+                              <div class="nav_shop__column">
+                                <div class="nav_shop__row">
+                                  <div class="nav_shop__title">Micronutrients</div>
+                                  <ul class="nav_shop__items">
+                                    <li class="nav_shop__item"><a class="nav_shop__link" href="#">First Light Micronutrients</a></li>
+                                  </ul>
+                                </div>
+                                <div class="nav_shop__row">
+                                  <div class="nav_shop__title">Homewares</div>
+                                  <ul class="nav_shop__items">
+                                    <li class="nav_shop__item"><a class="nav_shop__link" href="#">Homewares Overview</a></li>
+                                  </ul>
+                                </div>
+                                <div class="nav_shop__row">
+                                  <div class="nav_shop__title">Dog Food </div>
+                                  <ul class="nav_shop__items">
+                                    <li class="nav_shop__item"><a class="nav_shop__link" href="#">First Light Dog Food</a></li>
+                                    <li class="nav_shop__item"><a class="nav_shop__link" href="#">Dog Food Subscription</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="header_menu__item">
+                  <div class="header_menu__item_wrap js-header-trigger">
+                    <div class="header_menu__label">Resources</div>
+                    <div class="header_menu__icon">
+                      <svg class="icon icon_arrow_header icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                      </svg>
+                    </div>
+                    <div class="header_sublist js-header-sublist">
+                      <div class="header_sublist__body">
+                        <div class="nav_res">
+                          <div class="section_in">
+                            <ul class="naw_res__list">
+                              <li class="naw_res__item"><a class="naw_res__link" href="#">
+                                  <picture class="naw_res__img">
+                                    <source srcset="images/nav-res/nav-res-1.jpg.webp" type="image/webp">
+                                    <source srcset="images/nav-res/nav-res-1.jpg" type="image/jpeg"><img class="naw_res__img_in" src="images/nav-res/nav-res-1.jpg" alt=" " loading="eager">
+                                  </picture>
+                                  <h4 class="naw_res__title">Articles</h4></a></li>
+                              <li class="naw_res__item"><a class="naw_res__link" href="#">
+                                  <picture class="naw_res__img">
+                                    <source srcset="images/nav-res/nav-res-2.jpg.webp" type="image/webp">
+                                    <source srcset="images/nav-res/nav-res-2.jpg" type="image/jpeg"><img class="naw_res__img_in" src="images/nav-res/nav-res-2.jpg" alt=" " loading="eager">
+                                  </picture>
+                                  <h4 class="naw_res__title">Recipes</h4></a></li>
+                              <li class="naw_res__item"><a class="naw_res__link" href="#">
+                                  <picture class="naw_res__img">
+                                    <source srcset="images/nav-res/nav-res-3.jpg.webp" type="image/webp">
+                                    <source srcset="images/nav-res/nav-res-3.jpg" type="image/jpeg"><img class="naw_res__img_in" src="images/nav-res/nav-res-3.jpg" alt=" " loading="eager">
+                                  </picture>
+                                  <h4 class="naw_res__title">Cooking Tips</h4></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="header_menu__item">
+                  <div class="header_menu__item_wrap js-header-trigger">
+                    <div class="header_menu__label">About</div>
+                    <div class="header_menu__icon">
+                      <svg class="icon icon_arrow_header icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                      </svg>
+                    </div>
+                    <div class="header_sublist js-header-sublist">
+                      <div class="header_sublist__body">
+                        <div class="nav_about">
+                          <div class="section_in">
+                            <div class="nav_about__row">
+                              <div class="nav_about__column nav_about__column--half_mod"><a class="nav_about__link" href="#">
+                                  <picture class="nav_about_img">
+                                    <source srcset="images/shop-by-category/6.jpg.webp" type="image/webp">
+                                    <source srcset="images/shop-by-category/6.jpg" type="image/jpeg"><img class="nav_about_img__in" src="images/shop-by-category/6.jpg" alt="Steak with knife image" loading="eager">
+                                  </picture>
+                                  <div class="nav_about__content">
+                                    <div class="nav_about__title">Our Wagyu farmers</div>
+                                  </div></a></div>
+                              <div class="nav_about__column nav_about__column--half_mod"><a class="nav_about__link" href="#">
+                                  <picture class="nav_about_img">
+                                    <source srcset="images/shop-by-category/7.jpg.webp" type="image/webp">
+                                    <source srcset="images/shop-by-category/7.jpg" type="image/jpeg"><img class="nav_about_img__in" src="images/shop-by-category/7.jpg" alt="Roasted steak with knife image" loading="eager">
+                                  </picture>
+                                  <div class="nav_about__content">
+                                    <div class="nav_about__title">Sustainable Farming </div>
+                                  </div></a></div>
+                              <div class="nav_about__column"><a class="nav_about__link" href="#">
+                                  <picture class="nav_about_img">
+                                    <source srcset="images/shop-by-category/8.jpg.webp" type="image/webp">
+                                    <source srcset="images/shop-by-category/8.jpg" type="image/jpeg"><img class="nav_about_img__in" src="images/shop-by-category/8.jpg" alt="Ribs in a bowl image" loading="eager">
+                                  </picture>
+                                  <div class="nav_about__content">
+                                    <div class="nav_about__title">Our Promise</div>
+                                  </div></a></div>
+                              <div class="nav_about__column"><a class="nav_about__link" href="#">
+                                  <picture class="nav_about_img">
+                                    <source srcset="images/shop-by-category/9.jpg.webp" type="image/webp">
+                                    <source srcset="images/shop-by-category/9.jpg" type="image/jpeg"><img class="nav_about_img__in" src="images/shop-by-category/9.jpg" alt="Meat with sauce image" loading="eager">
+                                  </picture>
+                                  <div class="nav_about__content">
+                                    <div class="nav_about__title">In the News</div>
+                                  </div></a></div>
+                              <div class="nav_about__column"><a class="nav_about__link" href="#">
+                                  <picture class="nav_about_img">
+                                    <source srcset="images/shop-by-category/10.jpg.webp" type="image/webp">
+                                    <source srcset="images/shop-by-category/10.jpg" type="image/jpeg"><img class="nav_about_img__in" src="images/shop-by-category/10.jpg" alt="Ribs on table image" loading="eager">
+                                  </picture>
+                                  <div class="nav_about__content">
+                                    <div class="nav_about__title">Our Team</div>
+                                  </div></a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="header_menu__item">
+                  <div class="header_menu__item_wrap js-header-trigger"><a class="header_menu__label" href="#">Steak Club</a>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__wrapper js-search-parent">
+              <form class="header_form">
+                <div class="header_form__wrap js-search-trigger">
+                  <div class="form_input">
+                    <div class="form_input__field">
+                      <input class="form_input__header_search js-header-input" type="search" id="header_search" placeholder="Search" name="header_search" required title="Header search">
+                    </div>
+                  </div>
+                  <button class="header_form__icon" type="submit" aria-label="Search">
+                    <svg class="icon icon_search icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#search"></use>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_mobile">
+        <div class="header_in">
+          <div class="header_mobile__wrap">
+            <div class="header_mobile__col">
+              <button class="header_mobile__trigger js-menu-trigger" type="button" aria-label="Menu trigger"><span class="header_mobile__trigge_decor"></span></button>
+            </div>
+            <div class="header_mobile__col"><a class="header_mobile__logo" href="#"><img class="header_mobile__logo_img" src="images/footer_logo.svg" alt="logo"></a></div>
+            <div class="header_mobile__col">
+              <div class="header_mobile__icon_wrap">
+                <button class="header_mobile__search js-search-btn" type="button" aria-label="Search">
+                  <svg class="icon icon_search icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#search"></use>
+                  </svg>
+                </button><a class="header_mobile__cart" href="#">
+                  <div class="header_mobile__icon">
+                    <svg class="icon icon_cart icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                    </svg>
+                    <div class="header_mobile__cart_count">99</div>
+                  </div></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_mobile__search_wrap">
+        <form class="header_mobile__form">
+          <div class="header_mobile__form_input">
+            <div class="form_input">
+              <div class="form_input__field">
+                <input class="header_mobile__form_search js-header-mobile-input" type="search" id="header_search" placeholder="Search" name="header_search" required title="Header search">
+              </div>
+            </div>
+            <button class="header_mobile__search_icon" type="submit" aria-label="Search">
+              <svg class="icon icon_search icon--size_mod">
+                <use xlink:href="images/sprite/sprite.svg#search"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="header_mobile__body">
+        <div class="header_mobile__top">
+          <div class="header_mobile__body__search">
+            <form class="header_mobile__form">
+              <div class="header_mobile__form_input">
+                <div class="form_input">
+                  <div class="form_input__field">
+                    <input class="header_mobile__form_search" type="search" id="header_search" placeholder="Search" name="header_search" required title="Header search">
+                  </div>
+                </div>
+                <button class="header_mobile__search_icon" type="submit" aria-label="Search">
+                  <svg class="icon icon_search icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#search"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+          <ul class="header_mobile__list">
+            <li class="header_mobile__item js-header-btn">
+              <div class="header_mobile__item_btn">
+                <div class="header_mobile__item_title">Shop</div>
+                <div class="header_mobile__item_arrow" type="button">
+                  <svg class="icon icon_arrow icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="header_sublist js-header-sublist">
+                <div class="header_sublist__body">
+                  <button class="header_sublist__btn js-header-btn-close" type="button">Back
+                    <div class="header_sublist__btn_icon">
+                      <svg class="icon icon_arrow icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                      </svg>
+                    </div>
+                  </button>
+                  <div class="nav_shop__in">
+                    <div class="section_in">
+                      <div class="nav_shop__wrap">
+                        <div class="nav_shop__column">
+                          <div class="nav_shop__title">shop by category</div>
+                          <ul class="nav_shop__items">
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Wagyu</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Venison</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Dairy</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Homewares</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Micronutrients</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Dog Food</a></li>
+                          </ul>
+                        </div>
+                        <div class="nav_shop__column">
+                          <div class="nav_shop__title">steak club</div>
+                          <ul class="nav_shop__items">
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Steak Club Overview</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Sign up </a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">FAQ</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="header_mobile_bottom">
+                  <nav class="header_mobile_bottom__wrap">
+                    <ul class="header_mobile_bottom__list">
+                      <li class="header_mobile_bottom__item"><a class="header_mobile_bottom__link" href="#">Login
+                          <div class="header_mobile_bottom__icon">
+                            <svg class="icon icon_login icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#login"></use>
+                            </svg>
+                          </div></a></li>
+                      <li class="header_mobile_bottom__item"><a class="header_mobile_bottom__link" href="#">Cart
+                          <div class="header_mobile_bottom__icon">
+                            <svg class="icon icon_cart icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                            </svg>
+                          </div></a></li>
+                    </ul>
+                  </nav>
+                  <div class="header_mobile_bottom__language">
+                    <div class="header_item">
+                      <div class="header_item__trigger">
+                        <picture class="header_item__lang">
+                          <source srcset="images/nz_flag.jpg.webp" type="image/webp">
+                          <source srcset="images/nz_flag.jpg" type="image/jpeg"><img class="header_item__lang_img" src="images/nz_flag.jpg" alt="nz_flag" loading="eager">
+                        </picture>
+                        <div class="header_item__title header_item__title--color_mod">NZ</div>
+                        <button class="header_item__arrow" type="button">
+                          <svg class="icon icon_arrow_header icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="header_item__dropdown">
+                        <ul class="header_item__dropdown_body">
+                          <li class="header_item__dropdown_item header_item__dropdown_item--active_mod"><a class="header_item__dropdown_link" href="#">New Zealand</a></li>
+                          <li class="header_item__dropdown_item"><a class="header_item__dropdown_link" href="#">United States</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="header_mobile_bottom__info"><a class="header_mobile_bottom__email" href="mailto:info@firstlight.farms">info@firstlight.farms</a><a class="header_mobile_bottom__tel" href="tel:01123456">01 123 456</a></div>
+                  <div class="header_mobile_bottom__social">
+                    <ul class="header_mobile_bottom__social_list">
+                      <li class="header_mobile_bottom__social_item"><a class="header_mobile_bottom__social_link" href="#" target="_blank">
+                          <svg class="icon icon_facebook icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                          </svg></a></li>
+                      <li class="header_mobile_bottom__social_item"><a class="header_mobile_bottom__social_link" href="#" target="_blank">
+                          <svg class="icon icon_insta icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#insta"></use>
+                          </svg></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="header_mobile__item js-header-btn">
+              <div class="header_mobile__item_btn">
+                <div class="header_mobile__item_title">Our Products</div>
+                <div class="header_mobile__item_arrow" type="button">
+                  <svg class="icon icon_arrow icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="header_sublist js-header-sublist">
+                <div class="header_sublist__body">
+                  <button class="header_sublist__btn js-header-btn-close" type="button">Back
+                    <div class="header_sublist__btn_icon">
+                      <svg class="icon icon_arrow icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                      </svg>
+                    </div>
+                  </button>
+                  <div class="nav_shop__in">
+                    <div class="section_in">
+                      <div class="nav_shop__wrap">
+                        <div class="nav_shop__column">
+                          <div class="nav_shop__title">Wagyu</div>
+                          <ul class="nav_shop__items">
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">First Light Grass-Fed Wagyu</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Find your Marble Score</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Wagyu Retail Products</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Wagyu Cuts & Butchery </a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Wagyu Recipes</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Wagyu Cooking Tips</a></li>
+                          </ul>
+                        </div>
+                        <div class="nav_shop__column">
+                          <div class="nav_shop__title">Venison</div>
+                          <ul class="nav_shop__items">
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">First Light Venison</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Venison Retail Products</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Venison Recipes</a></li>
+                            <li class="nav_shop__item"><a class="nav_shop__link" href="#">Venison Cooking Tips</a></li>
+                          </ul>
+                        </div>
+                        <div class="nav_shop__column">
+                          <div class="nav_shop__row">
+                            <div class="nav_shop__title">Micronutrients</div>
+                            <ul class="nav_shop__items">
+                              <li class="nav_shop__item"><a class="nav_shop__link" href="#">First Light Micronutrients</a></li>
+                            </ul>
+                          </div>
+                          <div class="nav_shop__row">
+                            <div class="nav_shop__title">Homewares</div>
+                            <ul class="nav_shop__items">
+                              <li class="nav_shop__item"><a class="nav_shop__link" href="#">Homewares Overview</a></li>
+                            </ul>
+                          </div>
+                          <div class="nav_shop__row">
+                            <div class="nav_shop__title">Dog Food </div>
+                            <ul class="nav_shop__items">
+                              <li class="nav_shop__item"><a class="nav_shop__link" href="#">First Light Dog Food</a></li>
+                              <li class="nav_shop__item"><a class="nav_shop__link" href="#">Dog Food Subscription</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="header_mobile_bottom">
+                  <nav class="header_mobile_bottom__wrap">
+                    <ul class="header_mobile_bottom__list">
+                      <li class="header_mobile_bottom__item"><a class="header_mobile_bottom__link" href="#">Login
+                          <div class="header_mobile_bottom__icon">
+                            <svg class="icon icon_login icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#login"></use>
+                            </svg>
+                          </div></a></li>
+                      <li class="header_mobile_bottom__item"><a class="header_mobile_bottom__link" href="#">Cart
+                          <div class="header_mobile_bottom__icon">
+                            <svg class="icon icon_cart icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                            </svg>
+                          </div></a></li>
+                    </ul>
+                  </nav>
+                  <div class="header_mobile_bottom__language">
+                    <div class="header_item">
+                      <div class="header_item__trigger">
+                        <picture class="header_item__lang">
+                          <source srcset="images/nz_flag.jpg.webp" type="image/webp">
+                          <source srcset="images/nz_flag.jpg" type="image/jpeg"><img class="header_item__lang_img" src="images/nz_flag.jpg" alt="nz_flag" loading="eager">
+                        </picture>
+                        <div class="header_item__title header_item__title--color_mod">NZ</div>
+                        <button class="header_item__arrow" type="button">
+                          <svg class="icon icon_arrow_header icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="header_item__dropdown">
+                        <ul class="header_item__dropdown_body">
+                          <li class="header_item__dropdown_item header_item__dropdown_item--active_mod"><a class="header_item__dropdown_link" href="#">New Zealand</a></li>
+                          <li class="header_item__dropdown_item"><a class="header_item__dropdown_link" href="#">United States</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="header_mobile_bottom__info"><a class="header_mobile_bottom__email" href="mailto:info@firstlight.farms">info@firstlight.farms</a><a class="header_mobile_bottom__tel" href="tel:01123456">01 123 456</a></div>
+                  <div class="header_mobile_bottom__social">
+                    <ul class="header_mobile_bottom__social_list">
+                      <li class="header_mobile_bottom__social_item"><a class="header_mobile_bottom__social_link" href="#" target="_blank">
+                          <svg class="icon icon_facebook icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                          </svg></a></li>
+                      <li class="header_mobile_bottom__social_item"><a class="header_mobile_bottom__social_link" href="#" target="_blank">
+                          <svg class="icon icon_insta icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#insta"></use>
+                          </svg></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="header_mobile__item js-header-btn">
+              <div class="header_mobile__item_btn">
+                <div class="header_mobile__item_title">Resources</div>
+                <div class="header_mobile__item_arrow" type="button">
+                  <svg class="icon icon_arrow icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="header_sublist js-header-sublist">
+                <div class="header_sublist__body">
+                  <button class="header_sublist__btn js-header-btn-close" type="button">Back
+                    <div class="header_sublist__btn_icon">
+                      <svg class="icon icon_arrow icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                      </svg>
+                    </div>
+                  </button>
+                  <div class="nav_res">
+                    <div class="section_in">
+                      <ul class="naw_res__list">
+                        <li class="naw_res__item"><a class="naw_res__link" href="#">
+                            <picture class="naw_res__img">
+                              <source srcset="images/nav-res/nav-res-1.jpg.webp" type="image/webp">
+                              <source srcset="images/nav-res/nav-res-1.jpg" type="image/jpeg"><img class="naw_res__img_in" src="images/nav-res/nav-res-1.jpg" alt=" " loading="eager">
+                            </picture>
+                            <h4 class="naw_res__title">Articles</h4></a></li>
+                        <li class="naw_res__item"><a class="naw_res__link" href="#">
+                            <picture class="naw_res__img">
+                              <source srcset="images/nav-res/nav-res-2.jpg.webp" type="image/webp">
+                              <source srcset="images/nav-res/nav-res-2.jpg" type="image/jpeg"><img class="naw_res__img_in" src="images/nav-res/nav-res-2.jpg" alt=" " loading="eager">
+                            </picture>
+                            <h4 class="naw_res__title">Recipes</h4></a></li>
+                        <li class="naw_res__item"><a class="naw_res__link" href="#">
+                            <picture class="naw_res__img">
+                              <source srcset="images/nav-res/nav-res-3.jpg.webp" type="image/webp">
+                              <source srcset="images/nav-res/nav-res-3.jpg" type="image/jpeg"><img class="naw_res__img_in" src="images/nav-res/nav-res-3.jpg" alt=" " loading="eager">
+                            </picture>
+                            <h4 class="naw_res__title">Cooking Tips</h4></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="header_mobile_bottom">
+                  <nav class="header_mobile_bottom__wrap">
+                    <ul class="header_mobile_bottom__list">
+                      <li class="header_mobile_bottom__item"><a class="header_mobile_bottom__link" href="#">Login
+                          <div class="header_mobile_bottom__icon">
+                            <svg class="icon icon_login icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#login"></use>
+                            </svg>
+                          </div></a></li>
+                      <li class="header_mobile_bottom__item"><a class="header_mobile_bottom__link" href="#">Cart
+                          <div class="header_mobile_bottom__icon">
+                            <svg class="icon icon_cart icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                            </svg>
+                          </div></a></li>
+                    </ul>
+                  </nav>
+                  <div class="header_mobile_bottom__language">
+                    <div class="header_item">
+                      <div class="header_item__trigger">
+                        <picture class="header_item__lang">
+                          <source srcset="images/nz_flag.jpg.webp" type="image/webp">
+                          <source srcset="images/nz_flag.jpg" type="image/jpeg"><img class="header_item__lang_img" src="images/nz_flag.jpg" alt="nz_flag" loading="eager">
+                        </picture>
+                        <div class="header_item__title header_item__title--color_mod">NZ</div>
+                        <button class="header_item__arrow" type="button">
+                          <svg class="icon icon_arrow_header icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="header_item__dropdown">
+                        <ul class="header_item__dropdown_body">
+                          <li class="header_item__dropdown_item header_item__dropdown_item--active_mod"><a class="header_item__dropdown_link" href="#">New Zealand</a></li>
+                          <li class="header_item__dropdown_item"><a class="header_item__dropdown_link" href="#">United States</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="header_mobile_bottom__info"><a class="header_mobile_bottom__email" href="mailto:info@firstlight.farms">info@firstlight.farms</a><a class="header_mobile_bottom__tel" href="tel:01123456">01 123 456</a></div>
+                  <div class="header_mobile_bottom__social">
+                    <ul class="header_mobile_bottom__social_list">
+                      <li class="header_mobile_bottom__social_item"><a class="header_mobile_bottom__social_link" href="#" target="_blank">
+                          <svg class="icon icon_facebook icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                          </svg></a></li>
+                      <li class="header_mobile_bottom__social_item"><a class="header_mobile_bottom__social_link" href="#" target="_blank">
+                          <svg class="icon icon_insta icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#insta"></use>
+                          </svg></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="header_mobile__item js-header-btn">
+              <div class="header_mobile__item_btn">
+                <div class="header_mobile__item_title">About</div>
+                <div class="header_mobile__item_arrow" type="button">
+                  <svg class="icon icon_arrow icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="header_sublist js-header-sublist">
+                <div class="header_sublist__body">
+                  <button class="header_sublist__btn js-header-btn-close" type="button">Back
+                    <div class="header_sublist__btn_icon">
+                      <svg class="icon icon_arrow icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                      </svg>
+                    </div>
+                  </button>
+                  <div class="nav_about">
+                    <div class="section_in">
+                      <div class="nav_about__row">
+                        <div class="nav_about__column nav_about__column--half_mod"><a class="nav_about__link" href="#">
+                            <picture class="nav_about_img">
+                              <source srcset="images/shop-by-category/6.jpg.webp" type="image/webp">
+                              <source srcset="images/shop-by-category/6.jpg" type="image/jpeg"><img class="nav_about_img__in" src="images/shop-by-category/6.jpg" alt="Steak with knife image" loading="eager">
+                            </picture>
+                            <div class="nav_about__content">
+                              <div class="nav_about__title">Our Wagyu farmers</div>
+                            </div></a></div>
+                        <div class="nav_about__column nav_about__column--half_mod"><a class="nav_about__link" href="#">
+                            <picture class="nav_about_img">
+                              <source srcset="images/shop-by-category/7.jpg.webp" type="image/webp">
+                              <source srcset="images/shop-by-category/7.jpg" type="image/jpeg"><img class="nav_about_img__in" src="images/shop-by-category/7.jpg" alt="Roasted steak with knife image" loading="eager">
+                            </picture>
+                            <div class="nav_about__content">
+                              <div class="nav_about__title">Sustainable Farming </div>
+                            </div></a></div>
+                        <div class="nav_about__column"><a class="nav_about__link" href="#">
+                            <picture class="nav_about_img">
+                              <source srcset="images/shop-by-category/8.jpg.webp" type="image/webp">
+                              <source srcset="images/shop-by-category/8.jpg" type="image/jpeg"><img class="nav_about_img__in" src="images/shop-by-category/8.jpg" alt="Ribs in a bowl image" loading="eager">
+                            </picture>
+                            <div class="nav_about__content">
+                              <div class="nav_about__title">Our Promise</div>
+                            </div></a></div>
+                        <div class="nav_about__column"><a class="nav_about__link" href="#">
+                            <picture class="nav_about_img">
+                              <source srcset="images/shop-by-category/9.jpg.webp" type="image/webp">
+                              <source srcset="images/shop-by-category/9.jpg" type="image/jpeg"><img class="nav_about_img__in" src="images/shop-by-category/9.jpg" alt="Meat with sauce image" loading="eager">
+                            </picture>
+                            <div class="nav_about__content">
+                              <div class="nav_about__title">In the News</div>
+                            </div></a></div>
+                        <div class="nav_about__column"><a class="nav_about__link" href="#">
+                            <picture class="nav_about_img">
+                              <source srcset="images/shop-by-category/10.jpg.webp" type="image/webp">
+                              <source srcset="images/shop-by-category/10.jpg" type="image/jpeg"><img class="nav_about_img__in" src="images/shop-by-category/10.jpg" alt="Ribs on table image" loading="eager">
+                            </picture>
+                            <div class="nav_about__content">
+                              <div class="nav_about__title">Our Team</div>
+                            </div></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="header_mobile_bottom">
+                  <nav class="header_mobile_bottom__wrap">
+                    <ul class="header_mobile_bottom__list">
+                      <li class="header_mobile_bottom__item"><a class="header_mobile_bottom__link" href="#">Login
+                          <div class="header_mobile_bottom__icon">
+                            <svg class="icon icon_login icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#login"></use>
+                            </svg>
+                          </div></a></li>
+                      <li class="header_mobile_bottom__item"><a class="header_mobile_bottom__link" href="#">Cart
+                          <div class="header_mobile_bottom__icon">
+                            <svg class="icon icon_cart icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                            </svg>
+                          </div></a></li>
+                    </ul>
+                  </nav>
+                  <div class="header_mobile_bottom__language">
+                    <div class="header_item">
+                      <div class="header_item__trigger">
+                        <picture class="header_item__lang">
+                          <source srcset="images/nz_flag.jpg.webp" type="image/webp">
+                          <source srcset="images/nz_flag.jpg" type="image/jpeg"><img class="header_item__lang_img" src="images/nz_flag.jpg" alt="nz_flag" loading="eager">
+                        </picture>
+                        <div class="header_item__title header_item__title--color_mod">NZ</div>
+                        <button class="header_item__arrow" type="button">
+                          <svg class="icon icon_arrow_header icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="header_item__dropdown">
+                        <ul class="header_item__dropdown_body">
+                          <li class="header_item__dropdown_item header_item__dropdown_item--active_mod"><a class="header_item__dropdown_link" href="#">New Zealand</a></li>
+                          <li class="header_item__dropdown_item"><a class="header_item__dropdown_link" href="#">United States</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="header_mobile_bottom__info"><a class="header_mobile_bottom__email" href="mailto:info@firstlight.farms">info@firstlight.farms</a><a class="header_mobile_bottom__tel" href="tel:01123456">01 123 456</a></div>
+                  <div class="header_mobile_bottom__social">
+                    <ul class="header_mobile_bottom__social_list">
+                      <li class="header_mobile_bottom__social_item"><a class="header_mobile_bottom__social_link" href="#" target="_blank">
+                          <svg class="icon icon_facebook icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                          </svg></a></li>
+                      <li class="header_mobile_bottom__social_item"><a class="header_mobile_bottom__social_link" href="#" target="_blank">
+                          <svg class="icon icon_insta icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#insta"></use>
+                          </svg></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="header_mobile__item js-header-btn">
+              <div class="header_mobile__item_btn"><a class="header_mobile__item_title" href="#">Steak Club</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="header_mobile__bottom">
+          <div class="header_mobile_bottom">
+            <nav class="header_mobile_bottom__wrap">
+              <ul class="header_mobile_bottom__list">
+                <li class="header_mobile_bottom__item"><a class="header_mobile_bottom__link" href="#">Login
+                    <div class="header_mobile_bottom__icon">
+                      <svg class="icon icon_login icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#login"></use>
+                      </svg>
+                    </div></a></li>
+                <li class="header_mobile_bottom__item"><a class="header_mobile_bottom__link" href="#">Cart
+                    <div class="header_mobile_bottom__icon">
+                      <svg class="icon icon_cart icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                      </svg>
+                    </div></a></li>
+              </ul>
+            </nav>
+            <div class="header_mobile_bottom__language">
+              <div class="header_item">
+                <div class="header_item__trigger">
+                  <picture class="header_item__lang">
+                    <source srcset="images/nz_flag.jpg.webp" type="image/webp">
+                    <source srcset="images/nz_flag.jpg" type="image/jpeg"><img class="header_item__lang_img" src="images/nz_flag.jpg" alt="nz_flag" loading="eager">
+                  </picture>
+                  <div class="header_item__title header_item__title--color_mod">NZ</div>
+                  <button class="header_item__arrow" type="button">
+                    <svg class="icon icon_arrow_header icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow_header"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="header_item__dropdown">
+                  <ul class="header_item__dropdown_body">
+                    <li class="header_item__dropdown_item header_item__dropdown_item--active_mod"><a class="header_item__dropdown_link" href="#">New Zealand</a></li>
+                    <li class="header_item__dropdown_item"><a class="header_item__dropdown_link" href="#">United States</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="header_mobile_bottom__info"><a class="header_mobile_bottom__email" href="mailto:info@firstlight.farms">info@firstlight.farms</a><a class="header_mobile_bottom__tel" href="tel:01123456">01 123 456</a></div>
+            <div class="header_mobile_bottom__social">
+              <ul class="header_mobile_bottom__social_list">
+                <li class="header_mobile_bottom__social_item"><a class="header_mobile_bottom__social_link" href="#" target="_blank">
+                    <svg class="icon icon_facebook icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                    </svg></a></li>
+                <li class="header_mobile_bottom__social_item"><a class="header_mobile_bottom__social_link" href="#" target="_blank">
+                    <svg class="icon icon_insta icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#insta"></use>
+                    </svg></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="base">
+        <div class="single_product__breadcrumbs">
+          <div class="section_in">
+            <ul class="breadcrumbs_block__list breadcrumbs_block--color_mod_1 ">
+              <li class="breadcrumbs_block__item"><a class="breadcrumbs_block__link">Home</a>
+                <div class="breadcrumbs_block__icon_w">
+                  <svg class="icon icon_arrow icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                  </svg>
+                </div>
+              </li>
+              <li class="breadcrumbs_block__item"><a class="breadcrumbs_block__link">Shop</a>
+                <div class="breadcrumbs_block__icon_w">
+                  <svg class="icon icon_arrow icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                  </svg>
+                </div>
+              </li>
+              <li class="breadcrumbs_block__item"><a class="breadcrumbs_block__link">Wagyu Beef</a>
+                <div class="breadcrumbs_block__icon_w">
+                  <svg class="icon icon_arrow icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                  </svg>
+                </div>
+              </li>
+              <li class="breadcrumbs_block__item"><a class="breadcrumbs_block__link breadcrumbs_block__link--current_mod">Wagyu Half Ribeye Loin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="single_product__main">
+          <div class="product_gallery">
+            <div class="product_gallery__head">
+              <h1 class="product_gallery__title">Wagyu Half Ribeye Loin</h1>
+              <div class="product_gallery__subtitle">marble score 4-5</div><a class="product_card__rating" href="#"><img src="images/stars.svg" alt="rating"><span class="stamped-badge-caption">38 reviews</span></a>
+            </div>
+            <div class="product_gallery__main">
+              <div class="product_gallery__nav">
+                          <button class="slider_btn_1 slider_btn_1--prev_mod product_gallery__nav_prev js-gallery-prev-button" type="button" aria-label="Prev slide">
+                            <div class="slider_btn_1__icon">
+                              <svg class="icon icon_arrow icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                              </svg>
+                            </div>
+                          </button>
+                          <button class="slider_btn_1 product_gallery__nav_next js-gallery-next-button" type="button" aria-label="Next slide">
+                            <div class="slider_btn_1__icon">
+                              <svg class="icon icon_arrow icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                              </svg>
+                            </div>
+                          </button>
+              </div>
+              <div class="swiper js-product-gallery-main">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <picture class="product_gallery__main_picture">
+                      <source srcset="images/single-product/main1.jpg.webp" type="image/webp">
+                      <source srcset="images/single-product/main1.jpg" type="image/jpeg"><img class="product_gallery__main_img" src="images/single-product/main1.jpg" alt="product 1" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide"><a class="product_gallery__video_link" href="images/hero/test_mp4_1280.mp4" data-fancybox>
+                      <div class="product_gallery__icon">
+                        <svg class="icon icon_play_icon icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#play_icon"></use>
+                        </svg>
+                      </div></a>
+                    <picture class="product_gallery__main_picture">
+                      <source srcset="images/single-product/main1.jpg.webp" type="image/webp">
+                      <source srcset="images/single-product/main1.jpg" type="image/jpeg"><img class="product_gallery__main_img" src="images/single-product/main1.jpg" alt="product 2" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <picture class="product_gallery__main_picture">
+                      <source srcset="images/single-product/main1.jpg.webp" type="image/webp">
+                      <source srcset="images/single-product/main1.jpg" type="image/jpeg"><img class="product_gallery__main_img" src="images/single-product/main1.jpg" alt="product 3" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <picture class="product_gallery__main_picture">
+                      <source srcset="images/single-product/main1.jpg.webp" type="image/webp">
+                      <source srcset="images/single-product/main1.jpg" type="image/jpeg"><img class="product_gallery__main_img" src="images/single-product/main1.jpg" alt="product 4" loading="eager">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product_gallery__thumbs">
+              <div class="swiper js-product-gallery-thumbs">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <picture class="product_gallery__thumbs_picture">
+                      <source srcset="images/single-product/thumb1.jpg.webp" type="image/webp">
+                      <source srcset="images/single-product/thumb1.jpg" type="image/jpeg"><img class="product_gallery__thumbs_img" src="images/single-product/thumb1.jpg" alt="product mini 1" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="product_gallery__icon">
+                      <svg class="icon icon_play_icon icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#play_icon"></use>
+                      </svg>
+                    </div>
+                    <picture class="product_gallery__thumbs_picture">
+                      <source srcset="images/single-product/thumb2.jpg.webp" type="image/webp">
+                      <source srcset="images/single-product/thumb2.jpg" type="image/jpeg"><img class="product_gallery__thumbs_img" src="images/single-product/thumb2.jpg" alt="product mini 2" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <picture class="product_gallery__thumbs_picture">
+                      <source srcset="images/single-product/thumb3.jpg.webp" type="image/webp">
+                      <source srcset="images/single-product/thumb3.jpg" type="image/jpeg"><img class="product_gallery__thumbs_img" src="images/single-product/thumb3.jpg" alt="product mini 3" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <picture class="product_gallery__thumbs_picture">
+                      <source srcset="images/single-product/thumb1.jpg.webp" type="image/webp">
+                      <source srcset="images/single-product/thumb1.jpg" type="image/jpeg"><img class="product_gallery__thumbs_img" src="images/single-product/thumb1.jpg" alt="product mini 4" loading="eager">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product_content">
+            <div class="product_content__head">
+              <h1 class="product_content__title">Wagyu Half Ribeye Loin</h1>
+              <div class="product_content__subtitle">marble score 4-5</div><a class="product_card__rating" href="#"><img src="images/stars.svg" alt="rating"><span class="stamped-badge-caption">38 reviews</span></a>
+            </div>
+                      <div class="product_content__excerpt"><b>“Delicious, hard to find grass-fed wagyu tenderloin – great value” </b>You can’t beat a Tenderloin. The Tenderloin is tucked under the ribs where it does as little work as possible. It is the most tender muscle on the animal. It never lets you down which is why people love it.
+                      </div>
+            <div class="product_content__price_wrapper">
+              <div class="product_content__price">
+                <del class="product_content__old_price">$145.00</del><span class="product_content__regular_price">$96.00</span>
+              </div>
+              <div class="product_content__price_info">
+                <div class="product_content__price_info_icon">
+                  <svg class="icon icon_check icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#check"></use>
+                  </svg>
+                </div>
+                <div class="product_content__price_info_text">Your 15% Steak Club member discount has been automatically applied</div>
+              </div>
+            </div>
+            <form class="variation_form cart" action="#">
+              <table class="variations">
+                <tbody>
+                  <tr>
+                    <th class="label">Size</th>
+                    <td class="value">
+                      <div class="form_select js-form_select">
+                        <div class="form_select__field">
+                          <select class="form_select__element js-select-element" id="select_1" required>
+                            <option value='{"title":"","attrs":{"selected":true,"disabled":true}}' selected disabled></option>
+                            <option value='{"title":"1.2kg - 1.5kg","attrs":{"selected":true}}' selected>1.2kg - 1.5kg</option>
+                            <option value='{"title":"Eye Fillet"}'>Eye Fillet</option>
+                            <option value='{"title":"Diced Wagyu"}'>Diced Wagyu</option>
+                            <option value='{"title":"Flat Iron"}'>Flat Iron</option>
+                            <option value='{"title":"Wagyu Beef Mince"}'>Wagyu Beef Mince</option>
+                            <option value='{"title":"Eye Fillet "}'>Eye Fillet </option>
+                            <option value='{"title":"Diced Wagyu"}'>Diced Wagyu</option>
+                            <option value='{"title":"Eye Fillet "}'>Eye Fillet </option>
+                            <option value='{"title":"Diced Wagyu"}'>Diced Wagyu</option>
+                            <option value='{"title":"Wagyu Beef Mince"}'>Wagyu Beef Mince</option>
+                          </select>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="value">
+                      <div class="product_content__purchase_type">
+                        <div class="form_radio">
+                          <label class="form_radio__block">
+                            <input class="form_radio__element" type="radio" name="purchase_type" checked><span class="form_radio__label">One-time purchase</span>
+                          </label>
+                        </div>
+                        <div class="form_radio">
+                          <label class="form_radio__block">
+                            <input class="form_radio__element" type="radio" name="purchase_type"><span class="form_radio__label">Subscribe & save 20%</span>
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="product_content__actions">
+                          <div class="quantity">
+                            <button class="input_number_decrement input_number_decrement--transparent" type="button" aria-label="decrement minus">
+                              <svg class="icon icon_minus icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#minus"></use>
+                              </svg>
+                            </button>
+                            <input class="input_number" type="number" value="0" min="0" max="100">
+                            <button class="input_number_increment input_number_decrement--transparent" type="button" aria-label="decrement plus">
+                              <svg class="icon icon_plus icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plus"></use>
+                              </svg>
+                            </button>
+                          </div>
+                <button class="single_add_to_cart_button btn_1" type="submit" name="add-to-cart">Add to cart</button>
+              </div>
+            </form>
+            <div class="product_content__stock">
+              <div class="product_content__stock_icon"><img src="images/single-product/stock_icon.png" alt="stock icon"></div>
+              <div class="product_content__stock_content">
+                <div class="product_content__stock_title">In stock at First Light Farms USA</div>
+                <div class="product_content__stock_text">Your order could arrive as soon as <b>Thursday, October 20</b> if your order within 2 hours and 58 minutes.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+<section class="section advantages_line">
+  <div class="section_in">
+    <div class="advantages_line__body">
+      <ul class="advantages_line__list">
+        <li class="advantages_line__list_item">
+          <div class="advantages_line__item">
+            <div class="advantages_line__item_img"><img src="images/advantages/01.png" alt="advantages 1"></div>
+            <div class="advantages_line__item_title">100% grass-fed <br>& finished</div>
+          </div>
+        </li>
+        <li class="advantages_line__list_item">
+          <div class="advantages_line__item">
+            <div class="advantages_line__item_img"><img src="images/advantages/02.png" alt="advantages 2"></div>
+            <div class="advantages_line__item_title">No anti-biotics or added hormones</div>
+          </div>
+        </li>
+        <li class="advantages_line__list_item">
+          <div class="advantages_line__item">
+            <div class="advantages_line__item_img"><img src="images/advantages/03.png" alt="advantages 3"></div>
+            <div class="advantages_line__item_title">Non-GMO Project Certified</div>
+          </div>
+        </li>
+        <li class="advantages_line__list_item">
+          <div class="advantages_line__item">
+            <div class="advantages_line__item_img"><img src="images/advantages/04.png" alt="advantages 4"></div>
+            <div class="advantages_line__item_title">Certified Humane Lorem ipsum</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+        <section class="section product_details">
+          <div class="section_in"> 
+            <h3 class="product_details__title">Product Details</h3>
+            <div class="product_details__row"> 
+              <div class="product_details__column">
+                <div class="product_details__wrap"><strong>You can’t beat a Tenderloin. The Tenderloin is tucked under the ribs where it does as little work as possible. It is the most tender muscle on the animal and never lets you down which is why people love it.</strong>
+                  <p>Cut it into filet steaks or roast it whole. Whatever you choose Tenderloin is always a winner.</p>
+                  <p>This is a whole untrimmed wagyu tenderloin. Beautifully tender in every bite. Cut into steaks or roast it whole.</p>
+                  <p>This Tenderloin has been graded marble score 4-5. This indicates the amount of marbling in it. MBS 4-5 flavor profile is classed as medium in regards to richness.</p>
+                  <p>Delivered FROZEN. If you would like to cut this tenderloin into filet steaks, let thaw until possible to cut. Vacuum pack the filets. You can then refreeze them until ready to eat.</p>
+                </div>
+              </div>
+              <div class="product_details__column">
+                <ul class="product_details__list">
+                  <li class="product_details__item">
+                    <picture class="product_details_img">
+                      <source srcset="images/placeholder.png.webp" type="image/webp">
+                      <source srcset="images/placeholder.png" type="image/png"><img class="product_details_img__in" src="images/placeholder.png" alt=" " loading="eager">
+                    </picture>
+                    <div class="product_details_info"> 
+                      <div class="product_details_info__title">delivered frozen</div>
+                      <div class="product_details_info__text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volum era. </div><a class="product_details_info_link" href="#"> 
+                        <div class="product_details_info_link__text">Learn more</div>
+                        <div class="product_details_info_link__icon">
+                          <svg class="icon icon_arrow-wide icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow-wide"></use>
+                          </svg>
+                        </div></a>
+                    </div>
+                  </li>
+                  <li class="product_details__item">
+                    <picture class="product_details_img">
+                      <source srcset="images/placeholder.png.webp" type="image/webp">
+                      <source srcset="images/placeholder.png" type="image/png"><img class="product_details_img__in" src="images/placeholder.png" alt=" " loading="eager">
+                    </picture>
+                    <div class="product_details_info"> 
+                      <div class="product_details_info__title">why first light?</div>
+                      <div class="product_details_info__text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volum era. </div><a class="product_details_info_link" href="#"> 
+                        <div class="product_details_info_link__text">Learn more</div>
+                        <div class="product_details_info_link__icon">
+                          <svg class="icon icon_arrow-wide icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow-wide"></use>
+                          </svg>
+                        </div></a>
+                    </div>
+                  </li>
+                  <li class="product_details__item">
+                    <picture class="product_details_img">
+                      <source srcset="images/placeholder.png.webp" type="image/webp">
+                      <source srcset="images/placeholder.png" type="image/png"><img class="product_details_img__in" src="images/placeholder.png" alt=" " loading="eager">
+                    </picture>
+                    <div class="product_details_info"> 
+                      <div class="product_details_info__title">tips & advice</div>
+                      <ul class="product_details_info__list">
+                        <li class="product_details_info__item"><a class="product_details_info__link" href="#">Wagyu Beef Cooking Tips</a></li>
+                        <li class="product_details_info__item"><a class="product_details_info__link" href="#">Wagyu Beef Recipes </a></li>
+                        <li class="product_details_info__item"><a class="product_details_info__link" href="#">Learn About Marble Scoring</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section featured_recipe">
+          <div class="section_in">
+            <div class="featured_recipe__wrap">
+              <div class="featured_recipe__col">
+                <h3 class="featured_recipe__title">Featured Recipe
+                            <button class="slider_btn_1 slider_btn_1--prev_mod featured_recipe__button featured_recipe__button--prev_mod js-featured-recipe-prev-button" type="button" aria-label="Prev slide">
+                              <div class="slider_btn_1__icon">
+                                <svg class="icon icon_arrow icon--size_mod">
+                                  <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                                </svg>
+                              </div>
+                            </button>
+                            <button class="slider_btn_1 featured_recipe__button featured_recipe__button--next_mod js-featured-recipe-next-button" type="button" aria-label="Next slide">
+                              <div class="slider_btn_1__icon">
+                                <svg class="icon icon_arrow icon--size_mod">
+                                  <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                                </svg>
+                              </div>
+                            </button>
+                </h3>
+                <div class="featured_recipe__slider swiper js-featured-recipe-slider">
+                  <div class="featured_recipe__slide_list swiper-wrapper"><a class="recipes_card swiper-slide" href="#">
+                              <picture class="recipes_card__picture">
+                                <source srcset="images/featured_recipe.jpg.webp" type="image/webp">
+                                <source srcset="images/featured_recipe.jpg" type="image/jpeg"><img class="recipes_card__img" src="images/featured_recipe.jpg" alt=" " loading="eager">
+                              </picture>
+                              <div class="recipes_card__content_head">
+                                <div class="recipes_card__subtitle">Wagyu</div>
+                                <h3 class="recipes_card__title">First Light grass-fed Wagyu with dukkha, cauliflower puree & pomegranate jus</h3>
+                              </div>
+                              <div class="recipes_card__content_bottom">
+                                <ul class="recipes_card__list">
+                                  <li class="recipes_card__list_item">
+                                    <div class="recipes_card__list_icon">
+                                      <svg class="icon icon_butcher icon--size_mod">
+                                        <use xlink:href="images/sprite/sprite.svg#butcher"></use>
+                                      </svg>
+                                    </div>
+                                    <div class="recipes_card__list_text">eye fillet</div>
+                                  </li>
+                                  <li class="recipes_card__list_item">
+                                    <div class="recipes_card__list_icon">
+                                      <svg class="icon icon_clock icon--size_mod">
+                                        <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                      </svg>
+                                    </div>
+                                    <div class="recipes_card__list_text">25 mins</div>
+                                  </li>
+                                </ul>
+                              </div></a><a class="recipes_card swiper-slide" href="#">
+                              <picture class="recipes_card__picture">
+                                <source srcset="images/featured_recipe.jpg.webp" type="image/webp">
+                                <source srcset="images/featured_recipe.jpg" type="image/jpeg"><img class="recipes_card__img" src="images/featured_recipe.jpg" alt=" " loading="eager">
+                              </picture>
+                              <div class="recipes_card__content_head">
+                                <div class="recipes_card__subtitle">Wagyu</div>
+                                <h3 class="recipes_card__title">First Light grass-fed Wagyu with dukkha, cauliflower puree & pomegranate jus</h3>
+                              </div>
+                              <div class="recipes_card__content_bottom">
+                                <ul class="recipes_card__list">
+                                  <li class="recipes_card__list_item">
+                                    <div class="recipes_card__list_icon">
+                                      <svg class="icon icon_butcher icon--size_mod">
+                                        <use xlink:href="images/sprite/sprite.svg#butcher"></use>
+                                      </svg>
+                                    </div>
+                                    <div class="recipes_card__list_text">eye fillet</div>
+                                  </li>
+                                  <li class="recipes_card__list_item">
+                                    <div class="recipes_card__list_icon">
+                                      <svg class="icon icon_clock icon--size_mod">
+                                        <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                      </svg>
+                                    </div>
+                                    <div class="recipes_card__list_text">25 mins</div>
+                                  </li>
+                                </ul>
+                              </div></a>
+                  </div>
+                </div>
+              </div>
+              <div class="featured_recipe__col">
+                <h4 class="featured_recipe__heading">This product pairs well with…</h4>
+                <ul class="featured_recipe__list">
+                  <li class="featured_recipe__item">
+                            <div class="product_pairs"><a class="product_pairs__image" href="#">
+                                <picture class="product_pairs_img">
+                                  <source srcset="images//products/product3.jpg.webp" type="image/webp">
+                                  <source srcset="images//products/product3.jpg" type="image/jpeg"><img class="product_pairs_img__in" src="images//products/product3.jpg" alt="product pairs" loading="eager">
+                                </picture></a>
+                              <div class="product_pairs__content">
+                                <h4 class="product_pairs__title"><a href="#">Raw Freeze Dried 100% Wagyu Beef</a></h4><a class="product_pairs__rating" href="#"><img src="images/stars.svg" alt="#"><span class="stamped-badge-caption">38 reviews</span></a>
+                                <div class="product_pairs__price">
+                                  <del class="product_pairs__old_price">$999.99</del><span class="product_pairs__regular_price">$999.99</span>
+                                </div>
+                              </div>
+                            </div>
+                  </li>
+                  <li class="featured_recipe__item">
+                            <div class="product_pairs"><a class="product_pairs__image" href="#">
+                                <picture class="product_pairs_img">
+                                  <source srcset="images//products/product3.jpg.webp" type="image/webp">
+                                  <source srcset="images//products/product3.jpg" type="image/jpeg"><img class="product_pairs_img__in" src="images//products/product3.jpg" alt="product pairs" loading="eager">
+                                </picture></a>
+                              <div class="product_pairs__content">
+                                <h4 class="product_pairs__title"><a href="#">Raw Freeze Dried 100% Wagyu Beef</a></h4><a class="product_pairs__rating" href="#"><img src="images/stars.svg" alt="#"><span class="stamped-badge-caption">38 reviews</span></a>
+                                <div class="product_pairs__price">
+                                  <del class="product_pairs__old_price">$999.99</del><span class="product_pairs__regular_price">$999.99</span>
+                                </div>
+                              </div>
+                            </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section info_acc">
+          <div class="section_in">
+            <ul class="info_acc__list">
+              <li class="info_acc__item">
+                <div class="info_acc__head js-acc-trigger">
+                  <h3 class="info_acc__title">Shipping & Returns</h3>
+                  <div class="info_acc__icon"> 
+                    <svg class="icon icon_arrow_thin icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow_thin"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="info_acc__body">
+                  <div class="info_acc__wrap">
+                    <div class="info_acc__text">
+			<p>Cut it into filet steaks or roast it whole. Whatever you choose Tenderloin is always a winner.</p>
+			<p>This is a whole untrimmed wagyu tenderloin. Beautifully tender in every bite. Cut into steaks or roast it whole.</p>
+			<p>This Tenderloin has been graded marble score 4-5. This indicates the amount of marbling in it. MBS 4-5 flavor profile is classed as medium in regards to richness.</p>
+			<p>Delivered FROZEN. If you would like to cut this tenderloin into filet steaks, let thaw until possible to cut. Vacuum pack the filets. You can then refreeze them until ready to eat.</p>
+		</div>
+                  </div>
+                </div>
+              </li>
+              <li class="info_acc__item">
+                <div class="info_acc__head js-acc-trigger">
+                  <h3 class="info_acc__title">Nutritional Information</h3>
+                  <div class="info_acc__icon"> 
+                    <svg class="icon icon_arrow_thin icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow_thin"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="info_acc__body">
+                  <div class="info_acc__wrap">
+                    <div class="info_acc__text">
+			<p>Cut it into filet steaks or roast it whole. Whatever you choose Tenderloin is always a winner.</p>
+			<p>This is a whole untrimmed wagyu tenderloin. Beautifully tender in every bite. Cut into steaks or roast it whole.</p>
+			<p>This Tenderloin has been graded marble score 4-5. This indicates the amount of marbling in it. MBS 4-5 flavor profile is classed as medium in regards to richness.</p>
+			<p>Delivered FROZEN. If you would like to cut this tenderloin into filet steaks, let thaw until possible to cut. Vacuum pack the filets. You can then refreeze them until ready to eat.</p>
+		</div>
+                  </div>
+                </div>
+              </li>
+              <li class="info_acc__item">
+                <div class="info_acc__head js-acc-trigger">
+                  <h3 class="info_acc__title">Customer Reviews</h3>
+                  <div class="info_acc__icon"> 
+                    <svg class="icon icon_arrow_thin icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow_thin"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="info_acc__body">
+                  <div class="info_acc__wrap">
+                    <div class="info_acc__text">
+			<p>Cut it into filet steaks or roast it whole. Whatever you choose Tenderloin is always a winner.</p>
+			<p>This is a whole untrimmed wagyu tenderloin. Beautifully tender in every bite. Cut into steaks or roast it whole.</p>
+			<p>This Tenderloin has been graded marble score 4-5. This indicates the amount of marbling in it. MBS 4-5 flavor profile is classed as medium in regards to richness.</p>
+			<p>Delivered FROZEN. If you would like to cut this tenderloin into filet steaks, let thaw until possible to cut. Vacuum pack the filets. You can then refreeze them until ready to eat.</p>
+		</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section content_banner_video">
+          <div class="section_in">
+            <div class="content_banner_video__wrap">
+              <div class="content_banner_video__media">
+                <picture class="content_banner_video__img_in">
+                  <source srcset="images/banner/banner_video.jpg.webp" type="image/webp">
+                  <source srcset="images/banner/banner_video.jpg" type="image/jpeg"><img class="content_banner_video__img" src="images/banner/banner_video.jpg" alt="banner video" loading="eager">
+                </picture><a class="content_banner_video__trigger" href="images/hero/test_mp4_1280.mp4" data-fancybox>
+                  <svg class="icon icon_play_icon icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#play_icon"></use>
+                  </svg></a>
+              </div>
+              <div class="content_banner_video__content">
+                <h2 class="content_banner_video__title">From farm to table</h2>
+                <div class="content_banner_video__text"><p>We are a small New Zealand farming co-operative quietly changing the world. Back in the early 2000s we made the decision to meet an unfulfilled demand for tender, juicy, healthy meat.</p><p>Our promise is to produce and provide you with delicious meat, raised right, by people who truly care. We know we do things the right way but we also value the opinions of those we respect. We have therefore partnered with like-minded organisations, to validate and authenticate what we do.</p></div><a class="btn_1" href="#">About First Light</a>
+              </div>
+            </div>
+            <div class="content_banner_video__decor">
+              <div class="divider"></div>
+            </div>
+          </div>
+        </section>
+        <section class="products_section js-products-section section">
+          <div class="section_in">
+            <div class="section_head">
+              <h3 class="section_head__title">You might like…</h3>
+              <div class="section_head__right"><a class="btn_2 btn_desktop" href="#">Shop all</a><a class="btn_7 btn_mobile" href="#">Shop all</a>
+              </div>
+            </div>
+            <div class="products_slider__wrap">
+                        <button class="slider_btn_1 slider_btn_1--prev_mod products_slider__button products_slider__button--prev_mod js-products-prev-button" type="button" aria-label="Prev slide">
+                          <div class="slider_btn_1__icon">
+                            <svg class="icon icon_arrow icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                            </svg>
+                          </div>
+                        </button>
+                        <button class="slider_btn_1 products_slider__button products_slider__button--next_mod js-products-next-button" type="button" aria-label="Next slide">
+                          <div class="slider_btn_1__icon">
+                            <svg class="icon icon_arrow icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                            </svg>
+                          </div>
+                        </button>
+              <div class="products_slider swiper js-products-slider">
+                <div class="products_slider__list swiper-wrapper">
+                  <div class="products_slider__item swiper-slide">
+                    <div class="product_card"><a class="product_card__full_link" href="#"><span class="product_card__badge product_card__badge--sold_mod">Sold out</span>
+                        <div class="product_card__image">
+                          <picture class="product_card__img">
+                            <source srcset="images/products/product1.jpg.webp" type="image/webp">
+                            <source srcset="images/products/product1.jpg" type="image/jpeg"><img class="product_card__img_in" src="images/products/product1.jpg" alt=" " loading="eager">
+                          </picture>
+                        </div>
+                        <div class="product_card__content">
+                          <h4 class="product_card__title">Wagyu Beef Flank Steak Product Name</h4>
+                          <div class="product_card__excerpt">Tag / MBS / 2 pieces</div>
+                          <div class="product_card__rating" href="#"><img src="images/stars.svg" alt=""><span class="stamped-badge-caption">38 reviews</span></div>
+                          <div class="product_card__price"><span class="product_card__old_price">$999.99</span><span class="product_card__regular_price">$999.99</span>
+                          </div>
+                        </div></a>
+                    </div>
+                  </div>
+                  <div class="products_slider__item swiper-slide">
+                    <div class="product_card"><a class="product_card__full_link" href="#">
+                        <div class="product_card__image">
+                          <picture class="product_card__img">
+                            <source srcset="images/products/product2.jpg.webp" type="image/webp">
+                            <source srcset="images/products/product2.jpg" type="image/jpeg"><img class="product_card__img_in" src="images/products/product2.jpg" alt=" " loading="eager">
+                          </picture>
+                        </div>
+                        <div class="product_card__content">
+                          <h4 class="product_card__title">Healthy Glow Bone Broth Tonic</h4>
+                          <div class="product_card__excerpt">Tag / MBS / 2 pieces</div>
+                          <div class="product_card__rating" href="#"><img src="images/stars.svg" alt=""><span class="stamped-badge-caption">38 reviews</span></div>
+                          <div class="product_card__price"><span class="product_card__old_price">$999.99</span><span class="product_card__regular_price">$999.99</span>
+                          </div>
+                        </div></a>
+                    </div>
+                  </div>
+                  <div class="products_slider__item swiper-slide">
+                    <div class="product_card"><a class="product_card__full_link" href="#">
+                        <div class="product_card__image">
+                          <picture class="product_card__img">
+                            <source srcset="images/products/product3.jpg.webp" type="image/webp">
+                            <source srcset="images/products/product3.jpg" type="image/jpeg"><img class="product_card__img_in" src="images/products/product3.jpg" alt=" " loading="eager">
+                          </picture>
+                        </div>
+                        <div class="product_card__content">
+                          <h4 class="product_card__title">Raw Freeze Dried 100% Wagyu Beef</h4>
+                          <div class="product_card__excerpt">Tag / MBS / 2 pieces</div>
+                          <div class="product_card__rating" href="#"><img src="images/stars.svg" alt=""><span class="stamped-badge-caption">38 reviews</span></div>
+                          <div class="product_card__price"><span class="product_card__old_price">$999.99</span><span class="product_card__regular_price">$999.99</span>
+                          </div>
+                        </div></a>
+                    </div>
+                  </div>
+                  <div class="products_slider__item swiper-slide">
+                    <div class="product_card"><a class="product_card__full_link" href="#">
+                        <div class="product_card__image">
+                          <picture class="product_card__img">
+                            <source srcset="images/products/product4.jpg.webp" type="image/webp">
+                            <source srcset="images/products/product4.jpg" type="image/jpeg"><img class="product_card__img_in" src="images/products/product4.jpg" alt=" " loading="eager">
+                          </picture>
+                        </div>
+                        <div class="product_card__content">
+                          <h4 class="product_card__title">100% Grass-fed Butter - Salted</h4>
+                          <div class="product_card__excerpt">Tag / MBS / 2 pieces</div>
+                          <div class="product_card__rating" href="#"><img src="images/stars.svg" alt=""><span class="stamped-badge-caption">38 reviews</span></div>
+                          <div class="product_card__price"><span class="product_card__old_price">$999.99</span><span class="product_card__regular_price">$999.99</span>
+                          </div>
+                        </div></a>
+                    </div>
+                  </div>
+                  <div class="products_slider__item swiper-slide">
+                    <div class="product_card"><a class="product_card__full_link" href="#"><span class="product_card__badge product_card__badge--sold_mod">Sold out</span>
+                        <div class="product_card__image">
+                          <picture class="product_card__img">
+                            <source srcset="images/products/product1.jpg.webp" type="image/webp">
+                            <source srcset="images/products/product1.jpg" type="image/jpeg"><img class="product_card__img_in" src="images/products/product1.jpg" alt=" " loading="eager">
+                          </picture>
+                        </div>
+                        <div class="product_card__content">
+                          <h4 class="product_card__title">Wagyu Beef Flank Steak Product Name</h4>
+                          <div class="product_card__excerpt">Tag / MBS / 2 pieces</div>
+                          <div class="product_card__rating" href="#"><img src="images/stars.svg" alt=""><span class="stamped-badge-caption">38 reviews</span></div>
+                          <div class="product_card__price"><span class="product_card__old_price">$999.99</span><span class="product_card__regular_price">$999.99</span>
+                          </div>
+                        </div></a>
+                    </div>
+                  </div>
+                  <div class="products_slider__item swiper-slide">
+                    <div class="product_card"><a class="product_card__full_link" href="#">
+                        <div class="product_card__image">
+                          <picture class="product_card__img">
+                            <source srcset="images/products/product2.jpg.webp" type="image/webp">
+                            <source srcset="images/products/product2.jpg" type="image/jpeg"><img class="product_card__img_in" src="images/products/product2.jpg" alt=" " loading="eager">
+                          </picture>
+                        </div>
+                        <div class="product_card__content">
+                          <h4 class="product_card__title">Healthy Glow Bone Broth Tonic</h4>
+                          <div class="product_card__excerpt">Tag / MBS / 2 pieces</div>
+                          <div class="product_card__rating" href="#"><img src="images/stars.svg" alt=""><span class="stamped-badge-caption">38 reviews</span></div>
+                          <div class="product_card__price"><span class="product_card__old_price">$999.99</span><span class="product_card__regular_price">$999.99</span>
+                          </div>
+                        </div></a>
+                    </div>
+                  </div>
+                  <div class="products_slider__item swiper-slide">
+                    <div class="product_card"><a class="product_card__full_link" href="#">
+                        <div class="product_card__image">
+                          <picture class="product_card__img">
+                            <source srcset="images/products/product3.jpg.webp" type="image/webp">
+                            <source srcset="images/products/product3.jpg" type="image/jpeg"><img class="product_card__img_in" src="images/products/product3.jpg" alt=" " loading="eager">
+                          </picture>
+                        </div>
+                        <div class="product_card__content">
+                          <h4 class="product_card__title">Raw Freeze Dried 100% Wagyu Beef</h4>
+                          <div class="product_card__excerpt">Tag / MBS / 2 pieces</div>
+                          <div class="product_card__rating" href="#"><img src="images/stars.svg" alt=""><span class="stamped-badge-caption">38 reviews</span></div>
+                          <div class="product_card__price"><span class="product_card__old_price">$999.99</span><span class="product_card__regular_price">$999.99</span>
+                          </div>
+                        </div></a>
+                    </div>
+                  </div>
+                  <div class="products_slider__item swiper-slide">
+                    <div class="product_card"><a class="product_card__full_link" href="#">
+                        <div class="product_card__image">
+                          <picture class="product_card__img">
+                            <source srcset="images/products/product4.jpg.webp" type="image/webp">
+                            <source srcset="images/products/product4.jpg" type="image/jpeg"><img class="product_card__img_in" src="images/products/product4.jpg" alt=" " loading="eager">
+                          </picture>
+                        </div>
+                        <div class="product_card__content">
+                          <h4 class="product_card__title">100% Grass-fed Butter - Salted</h4>
+                          <div class="product_card__excerpt">Tag / MBS / 2 pieces</div>
+                          <div class="product_card__rating" href="#"><img src="images/stars.svg" alt=""><span class="stamped-badge-caption">38 reviews</span></div>
+                          <div class="product_card__price"><span class="product_card__old_price">$999.99</span><span class="product_card__regular_price">$999.99</span>
+                          </div>
+                        </div></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer__head">
+                    <button class="slider_btn_1 slider_btn_1--prev_mod footer_slider__button footer_slider__button--prev_mod js-footer-prev-button" type="button" aria-label="Prev slide">
+                      <div class="slider_btn_1__icon">
+                        <svg class="icon icon_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+                    <button class="slider_btn_1 footer_slider__button footer_slider__button--next_mod js-footer-next-button" type="button" aria-label="Next slide">
+                      <div class="slider_btn_1__icon">
+                        <svg class="icon icon_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+          <div class="footer__inner swiper js-footer-slider">
+            <ul class="footer__head_list swiper-wrapper">
+              <li class="footer__head_item swiper-slide">
+                <div class="footer__head_circle"></div>
+                <div class="footer__head_content">
+                  <div class="footer__head_title">Free Shipping</div>
+                  <div class="footer__head_text">One line description lorem </div>
+                </div>
+              </li>
+              <li class="footer__head_item swiper-slide">
+                <div class="footer__head_circle"></div>
+                <div class="footer__head_content">
+                  <div class="footer__head_title">Customer Service</div>
+                  <div class="footer__head_text">One line description lorem </div>
+                </div>
+              </li>
+              <li class="footer__head_item swiper-slide">
+                <div class="footer__head_circle"></div>
+                <div class="footer__head_content">
+                  <div class="footer__head_title">Secure Payments</div>
+                  <div class="footer__head_text">One line description lorem </div>
+                </div>
+              </li>
+              <li class="footer__head_item swiper-slide">
+                <div class="footer__head_circle"></div>
+                <div class="footer__head_content">
+                  <div class="footer__head_title">Contact us</div>
+                  <div class="footer__head_text">One line description lorem </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__pagination js-footer-pagination"></div>
+        </div>
+        <div class="footer__main">
+          <div class="footer__inner">
+            <div class="footer__row_top">
+              <div class="footer_logo"><a class="footer_logo__link" href="index.html"><img class="footer_logo__img" src="images/footer_logo.svg" alt="logo"></a></div>
+              <div class="footer_content">
+                <div class="footer_nav">
+                  <ul class="footer_nav__list ">
+                    <li class="footer_nav__item  "><a class="footer_nav__link " href="#">Shop</a></li>
+                    <li class="footer_nav__item  "><a class="footer_nav__link " href="#">Our Products</a></li>
+                    <li class="footer_nav__item  "><a class="footer_nav__link " href="#">Resources</a></li>
+                    <li class="footer_nav__item  "><a class="footer_nav__link " href="#">About</a></li>
+                    <li class="footer_nav__item  "><a class="footer_nav__link " href="#">Where to buy</a></li>
+                  </ul>
+                </div>
+                <div class="footer_contact">
+                  <h3 class="footer_contact__head">Contact us</h3>
+                  <ul class="footer_contact__list">
+                    <li class="footer_contact__item"><a class="footer_contact__link" href="#">info@firstlight.farms</a></li>
+                    <li class="footer_contact__item"><a class="footer_contact__link" href="#">01 123 456</a></li>
+                    <li class="footer_contact__item">
+                      <p>First Light Foods USA</p>
+                      <p>1240 Rosecrans Ave Ste 120</p>
+                      <p>Manhattan Beach</p>
+                      <p>CA 90266</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer_social">
+                  <ul class="footer_social__list">
+                    <li class="footer_social__item"><a class="footer_social__link" href="#">
+                        <svg class="icon icon_facebook icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                        </svg></a></li>
+                    <li class="footer_social__item"><a class="footer_social__link" href="#">
+                        <svg class="icon icon_insta icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#insta"></use>
+                        </svg></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer__row_bottom">
+              <div class="footer__col_wrap">
+                <div class="footer__col">
+                  <div class="footer__copyright">© 2022 First Light Farms</div>
+                </div>
+                <div class="footer__col">
+                  <div class="footer__terms">
+                    <ul class="footer__terms_list">
+                      <li class="footer__terms_item"><a class="footer__terms_link" href="#" target="_blank">Terms & Conditions</a></li>
+                      <li class="footer__terms_item"><a class="footer__terms_link" href="#" target="_blank">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <script defer src="js/app.js"></script></body>
+</html>
