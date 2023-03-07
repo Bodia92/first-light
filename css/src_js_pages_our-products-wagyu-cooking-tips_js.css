@@ -1,0 +1,1088 @@
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/text-section-mixin.scss ***!
+  \**********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.text_section__title {
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .text_section__title {
+    max-width: 90%;
+    font-size: 2.2rem;
+    line-height: 1.45;
+  }
+  .text_section__title:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .text_section__title {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+  }
+  .text_section__title:not(:last-child) {
+    margin-bottom: 1.4rem;
+  }
+}
+
+.text_section__description {
+  font-weight: 400;
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .text_section__description {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .text_section__description {
+    font-size: 1.4rem;
+  }
+}
+.text_section__description:not(:last-child) {
+  margin-bottom: 3.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .text_section__description {
+    max-width: 92%;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .text_section__description {
+    line-height: 1.45;
+    letter-spacing: -0.012em;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/cooking-info-list.scss ***!
+  \*********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .cooking_info_list .info_item, .coocking_tips_list .info_item, .steak_club_info .info_item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info_item__img:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_info_list .info_item__img {
+    width: 14rem;
+    height: 14rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .steak_club_info .info_item__img, .coocking_tips_list .info_item__img {
+    width: 13.2rem;
+    height: 13.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .steak_club_info .info_item__img:not(:last-child), .coocking_tips_list .info_item__img:not(:last-child) {
+    margin-right: 2.2rem;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .info_item__img {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__img {
+    flex-shrink: 0;
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+}
+
+.info_item__img_in {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info_item__content {
+  padding-left: 1.4rem;
+}
+.coocking_tips_list .info_item__content {
+  padding-left: 0.8rem;
+}
+@media screen and (min-width: 768px) {
+  .steak_club_info .info_item__content {
+    padding-left: 0.6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .steak_club_info .info_item__content {
+    padding-left: 0;
+    padding-top: 0.4rem;
+  }
+}
+
+.info_item__title {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.14;
+}
+@media screen and (min-width: 1024px) {
+  .info_item__title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .info_item__title {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info_item__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__title:not(:last-child) {
+    margin-bottom: 0.6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info_item__title:not(.steak_club_info .info_item__title) {
+    min-height: 2.7em;
+  }
+}
+.coocking_tips_list .info_item__title:not(:last-child), .steak_club_info .info_item__title:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .info_item__title {
+    margin-right: 2.2rem;
+  }
+  .info_item__title:not(.steak_club_info .info_item__title) {
+    min-height: 2em;
+  }
+}
+
+.info_item__description {
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .info_item__description {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+    line-height: 1.47;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__description {
+    font-size: 1.4rem;
+    line-height: 1.42;
+    letter-spacing: -0.014em;
+  }
+}
+
+.cooking_info_list__bg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.cooking_info_list__bg_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cooking_info_list__wrap {
+  background-color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_info_list__wrap {
+    padding: 4.6rem 7rem 6.6rem 7.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_info_list__wrap {
+    padding: 3rem 2.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_info_list__array {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0 -3.8rem -4.8rem 0;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .cooking_info_list__array {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0 -3.8rem -4.8rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_info_list__item {
+    width: 25%;
+    padding: 0 3.8rem 4.8rem 0;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .cooking_info_list__item {
+    width: 50%;
+    padding: 0 3.8rem 4.8rem 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cooking_info_list__item:not(:last-child) {
+    margin-bottom: 1.8rem;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/cooking-details.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_details__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: stretch;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_details__main_col {
+    width: 63.2%;
+    padding-right: 3rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__main_col:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_details__side_col {
+    width: 36.8%;
+    padding-left: 5.6rem;
+    margin-top: 0.8rem;
+    border-left: 1px solid #f2e4d1;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__side_col {
+    padding-top: 2.8rem;
+    border-top: 1px solid #f2e4d1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_details__main_list {
+    max-width: 70rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_details__main_item:not(:last-child) {
+    margin-bottom: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__main_item:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+
+.cooking_details__main_title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__main_title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__main_title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__main_title:not(:last-child) {
+    margin-bottom: 1.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__main_title {
+    letter-spacing: -0.03em;
+  }
+  .cooking_details__main_title:not(:last-child) {
+    margin-bottom: 1.2rem;
+  }
+}
+
+.cooking_details__main_text {
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__main_text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__main_text {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__main_text {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__main_text {
+    line-height: 1.42;
+    letter-spacing: -0.015em;
+  }
+}
+
+.cooking_details__side_head {
+  font-weight: 500;
+  line-height: 1.14;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__side_head {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__side_head {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__side_head:not(:last-child) {
+    margin-bottom: 3.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__side_head {
+    letter-spacing: -0.02em;
+  }
+  .cooking_details__side_head:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.cooking_details__side_item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__side_item:not(:last-child) {
+    margin-bottom: 3.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__side_item:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+
+.cooking_details__side_decor {
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid #bb753a;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__side_decor {
+    width: 7.2rem;
+    height: 7.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__side_decor {
+    width: 5.6rem;
+    height: 5.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_details__side_content {
+    padding-top: 0.6rem;
+    padding-left: 3rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__side_content {
+    padding-top: 0.4rem;
+    padding-left: 1.4rem;
+  }
+}
+
+.cooking_details__side_title {
+  font-weight: 500;
+  letter-spacing: 0.11em;
+  color: #868686;
+  text-transform: uppercase;
+  line-height: 1;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__side_title {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__side_title {
+    font-size: 1.4rem;
+  }
+  .members_slider .cooking_details__side_title {
+    font-size: 1.2rem;
+  }
+  .memberships_tabs .cooking_details__side_title {
+    letter-spacing: 0.078em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__side_title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__side_title:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.cooking_details__side_text {
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_details__side_text {
+    font-size: 1.4rem;
+    line-height: 1.57;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_details__side_text {
+    font-size: 1.3rem;
+    line-height: 1.38;
+    letter-spacing: -0.02em;
+  }
+}
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/cooking-tabs.scss ***!
+  \****************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.cooking_tabs {
+  background-color: #f0f2f4;
+}
+
+.cooking_tabs_head {
+  max-width: 80.6rem;
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs_head:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs_head:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.cooking_tabs_head__title {
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: -0.018em;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs_head__title {
+    font-size: 4.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs_head__title {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs_head__title:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs_head__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+.cooking_tabs_head__description {
+  font-weight: 400;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs_head__description {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs_head__description {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cooking_tabs__mask {
+    position: relative;
+    margin-right: calc(var(--gl-indent) * -1);
+    margin-left: calc(var(--gl-indent) * -1);
+  }
+  .cooking_tabs__mask:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 4.4rem;
+    height: 100%;
+    background: linear-gradient(270deg, #f0f2f4 0%, rgba(240, 242, 244, 0) 100%);
+    content: "";
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_tabs__nav.cooking_tabs__nav {
+    margin-bottom: 3.4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs__nav.cooking_tabs__nav {
+    padding-bottom: 1.6rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.cooking_tabs__nav_list.cooking_tabs__nav_list {
+  overflow: visible;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs__nav_list.cooking_tabs__nav_list {
+    margin: 0 -2.5rem -2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs__nav_list.cooking_tabs__nav_list {
+    margin: 0 -1.2rem 0 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs__nav_list.cooking_tabs__nav_list .swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+.cooking_tabs__nav_item.cooking_tabs__nav_item {
+  width: auto;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs__nav_item.cooking_tabs__nav_item {
+    padding: 0 2.5rem 2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs__nav_item.cooking_tabs__nav_item {
+    padding: 0 1.2rem 0;
+  }
+}
+
+.cooking_tabs__nav_link {
+  position: relative;
+  font-weight: 400;
+  letter-spacing: 0.11em;
+  line-height: 1.33;
+  font-family: "Geograph", sans-serif;
+  color: #868686;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.cooking_tabs__nav_link:after {
+  position: absolute;
+  left: -1px;
+  bottom: -0.3rem;
+  width: 100%;
+  height: 2px;
+  background-color: #bb753a;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  content: "";
+}
+.cooking_tabs__nav_link:focus, .cooking_tabs__nav_link:hover {
+  color: #535353;
+  text-decoration: none;
+}
+.swiper-slide-thumb-active .cooking_tabs__nav_link {
+  color: #bb753a;
+}
+.swiper-slide-thumb-active .cooking_tabs__nav_link:after {
+  opacity: 1;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs__nav_link {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs__nav_link {
+    font-size: 1.4rem;
+    white-space: nowrap;
+  }
+}
+
+.cooking_tabs__content.cooking_tabs__content {
+  position: relative;
+  background-color: #fff;
+  overflow: visible;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs__content.cooking_tabs__content {
+    padding: 3.6rem 5.6rem 5.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs__content.cooking_tabs__content {
+    padding: 2.4rem 4.2rem 3.8rem;
+  }
+}
+
+.cooking_tabs__content_in.cooking_tabs__content_in {
+  height: auto;
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs__content_in.cooking_tabs__content_in {
+    width: 100%;
+  }
+}
+
+.cooking_tabs__content_row.cooking_tabs__content_row--title_mod {
+  font-weight: 500;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs__content_row.cooking_tabs__content_row--title_mod {
+    padding-bottom: 3rem;
+    margin-bottom: 3.6rem;
+    border-bottom: 2px solid #f0f2f4;
+    font-size: 1.8rem;
+    line-height: 1.78;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs__content_row.cooking_tabs__content_row--title_mod {
+    display: none;
+  }
+}
+.cooking_tabs__content_row.cooking_tabs__content_row--descrip_mod {
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs__content_row.cooking_tabs__content_row--descrip_mod {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tabs__content_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    padding: 0 2.4rem 0 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs__content_row {
+    position: relative;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_tabs__content_col {
+    width: 20%;
+    padding: 0 1rem;
+    line-height: 1.4;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_tabs__content_col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    width: 100%;
+    position: relative;
+  }
+  .cooking_tabs__content_col::after {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #f2e4df;
+    content: "";
+  }
+  .cooking_tabs__content_col:not(:last-child) {
+    padding-bottom: 1.5rem;
+  }
+  .cooking_tabs__content_col::before {
+    display: block;
+    flex: 0 0 50%;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    font-weight: 500;
+    content: attr(data-label);
+  }
+}
+
+.cooking_tab__button {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  margin-top: -3rem;
+}
+.cooking_tab__button.cooking_tab__button--prev_mod {
+  left: -2.2rem;
+}
+.cooking_tab__button.cooking_tab__button--next_mod {
+  right: -2.2rem;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_tab__button {
+    display: none;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./node_modules/swiper/modules/effect-fade/effect-fade.min.css ***!
+  \**************************************************************************************************************************************************************************************************************/
+.swiper-fade.swiper-free-mode .swiper-slide {
+  transition-timing-function: ease-out;
+}
+
+.swiper-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+
+.swiper-fade .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+
+.swiper-fade .swiper-slide-active, .swiper-fade .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./node_modules/swiper/modules/thumbs/thumbs.min.css ***!
+  \****************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/roasting-times.scss ***!
+  \******************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.roasting_times {
+  background-color: #f0f2f4;
+}
+
+.roasting_times__title {
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: -0.018em;
+}
+@media screen and (min-width: 1024px) {
+  .roasting_times__title {
+    font-size: 4.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .roasting_times__title {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .roasting_times__title:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .roasting_times__title:not(:last-child) {
+    margin-bottom: 0.8rem;
+  }
+}
+
+.roasting_times__description {
+  font-weight: 400;
+  max-width: 80.6rem;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .roasting_times__description {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .roasting_times__description {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .roasting_times__description:not(:last-child) {
+    margin-bottom: 4.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .roasting_times__description:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.roasting_times__wrap {
+  position: relative;
+  background-color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .roasting_times__wrap {
+    padding: 2.6rem 5.6rem 5.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .roasting_times__wrap {
+    margin-right: calc(var(--gl-indent) * -1);
+    padding: 2.2rem 2.4rem 2.8rem;
+  }
+}
+.roasting_times__wrap:before, .roasting_times__wrap:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  height: 100%;
+  content: "";
+}
+.roasting_times__wrap:after {
+  z-index: 9;
+  width: 7.8rem;
+  background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.roasting_times__wrap:before {
+  z-index: 0;
+  width: var(--gl-indent);
+  background: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .roasting_times__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: stretch;
+  }
+}
+.roasting_times__content.swiper-wrapper {
+  align-items: stretch;
+}
+
+.roasting_times__content_row.roasting_times__content_row--title_mod {
+  border-bottom: 1px solid #f0f2f4;
+  font-weight: 500;
+}
+@media screen and (min-width: 1024px) {
+  .roasting_times__content_row.roasting_times__content_row--title_mod {
+    flex: auto;
+    padding-bottom: 2.2rem;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    line-height: 1.78;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .roasting_times__content_row.roasting_times__content_row--title_mod {
+    margin-bottom: 1rem;
+    height: 3.2rem;
+    overflow: hidden;
+    line-height: 1;
+  }
+}
+.roasting_times__content_row.roasting_times__content_row--descrip_mod {
+  font-weight: 400;
+  line-height: 1.5;
+  flex: auto;
+}
+@media screen and (min-width: 1024px) {
+  .roasting_times__content_row.roasting_times__content_row--descrip_mod {
+    font-size: 1.6rem;
+  }
+  .roasting_times__content_row.roasting_times__content_row--descrip_mod:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .roasting_times__content_row.roasting_times__content_row--descrip_mod:not(:last-child) {
+    margin-bottom: 0.7rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .roasting_times__content_row {
+    font-size: 1.4rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .roasting_times__content_col:first-child {
+    width: 25.8%;
+  }
+  .roasting_times__content_col:nth-child(2) {
+    width: 44.5%;
+  }
+  .roasting_times__content_col:nth-child(3) {
+    width: 29.7%;
+  }
+}
+.roasting_times__content_col.swiper-slide {
+  height: auto;
+}
+
+.roasting_times__content_col_in {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.roasting_times__container {
+  position: relative;
+}
+
+.roasting_times__button {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  margin-top: -2.2rem;
+}
+@media screen and (min-width: 1024px) {
+  .roasting_times__button {
+    display: none;
+  }
+}
+.roasting_times__button.roasting_times__button--prev_mod {
+  left: -2.2rem;
+}
+.roasting_times__button.roasting_times__button--next_mod {
+  right: -2.2rem;
+}
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/universal/slider-controls.scss ***!
+  \*****************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.slider_controls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.slider_controls__pagination {
+  color: #bb753a;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1024px) {
+  .slider_controls__pagination {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .slider_controls__pagination {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .banner_slider .slider_controls__pagination {
+    letter-spacing: -0.02em;
+  }
+}
+
+/*# sourceMappingURL=src_js_pages_our-products-wagyu-cooking-tips_js.css.map*/

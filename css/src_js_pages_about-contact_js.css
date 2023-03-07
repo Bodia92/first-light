@@ -1,0 +1,164 @@
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/location-item.scss ***!
+  \*****************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.location_item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f2f4;
+}
+@media screen and (min-width: 1024px) {
+  .location_item {
+    padding: 3.2rem 4rem 4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .location_item {
+    padding: 1.4rem 1.6rem 2.4rem 2rem;
+  }
+}
+
+.location_item__title {
+  font-weight: 500;
+}
+@media screen and (min-width: 1024px) {
+  .location_item__title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .location_item__title {
+    font-size: 1.8rem;
+  }
+}
+.wher_buy_info .location_item__title {
+  min-height: 2em;
+}
+@media screen and (min-width: 1024px) {
+  .location_item__title {
+    line-height: 1.14;
+    letter-spacing: -0.014em;
+  }
+  .location_item__title:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .location_item__title {
+    line-height: 1;
+    letter-spacing: -0.022em;
+  }
+  .location_item__title:not(:last-child) {
+    margin-bottom: 1.2rem;
+  }
+  .get_in_touch .location_item__title br {
+    display: none;
+  }
+}
+
+.location_item__list {
+  width: 100%;
+}
+@media screen and (max-width: 1023px) {
+  .location_item__list {
+    margin-top: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .location_item__item:not(:last-child) {
+    margin-bottom: 1.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .location_item__item:not(:last-child) {
+    margin-bottom: 1.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .location_item__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .get_in_touch .location_item__item {
+    display: flex;
+  }
+}
+
+.location_item__item_heading {
+  color: #868686;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1024px) {
+  .location_item__item_heading {
+    flex-shrink: 0;
+    width: 30%;
+    font-size: 1.6rem;
+    line-height: 1.72;
+  }
+  .location_item__item_heading:not(:last-child) {
+    margin-right: 1.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .location_item__item_heading {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  .get_in_touch .location_item__item_heading:not(:last-child) {
+    margin-right: 1.8rem;
+  }
+}
+
+a.location_item__item_link {
+  transition: color 0.3s;
+}
+a.location_item__item_link:hover, a.location_item__item_link:focus {
+  text-decoration: none;
+  color: #868686;
+}
+
+.get_in_touch .location_item__item_link {
+  margin-left: auto;
+  width: 17.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .location_item__item_link {
+    font-weight: 400;
+    padding-top: 2px;
+    line-height: 1.25;
+    color: #000;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+  .location_item__item_link {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+  .location_item__item_link {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .location_item__item_link {
+    font-size: 1.3rem;
+    line-height: 1.38;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+/*# sourceMappingURL=src_js_pages_about-contact_js.css.map*/

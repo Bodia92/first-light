@@ -1,0 +1,781 @@
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/coocking-tips-list.scss ***!
+  \**********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.coocking_tips_list__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin: 0 -2.4rem -2.4rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .coocking_tips_list__item {
+    width: 25%;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .coocking_tips_list__item {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .coocking_tips_list__item {
+    padding: 0 5.8rem 2.4rem 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .coocking_tips_list__item {
+    padding: 0 2.4rem 2.4rem 0;
+    width: 100%;
+  }
+}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/info-item.scss ***!
+  \*************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .cooking_info_list .info_item, .coocking_tips_list .info_item, .steak_club_info .info_item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info_item__img:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_info_list .info_item__img {
+    width: 14rem;
+    height: 14rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .steak_club_info .info_item__img, .coocking_tips_list .info_item__img {
+    width: 13.2rem;
+    height: 13.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .steak_club_info .info_item__img:not(:last-child), .coocking_tips_list .info_item__img:not(:last-child) {
+    margin-right: 2.2rem;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .info_item__img {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__img {
+    flex-shrink: 0;
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+}
+
+.info_item__img_in {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info_item__content {
+  padding-left: 1.4rem;
+}
+.coocking_tips_list .info_item__content {
+  padding-left: 0.8rem;
+}
+@media screen and (min-width: 768px) {
+  .steak_club_info .info_item__content {
+    padding-left: 0.6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .steak_club_info .info_item__content {
+    padding-left: 0;
+    padding-top: 0.4rem;
+  }
+}
+
+.info_item__title {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.14;
+}
+@media screen and (min-width: 1024px) {
+  .info_item__title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .info_item__title {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info_item__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__title:not(:last-child) {
+    margin-bottom: 0.6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info_item__title:not(.steak_club_info .info_item__title) {
+    min-height: 2.7em;
+  }
+}
+.coocking_tips_list .info_item__title:not(:last-child), .steak_club_info .info_item__title:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .info_item__title {
+    margin-right: 2.2rem;
+  }
+  .info_item__title:not(.steak_club_info .info_item__title) {
+    min-height: 2em;
+  }
+}
+
+.info_item__description {
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .info_item__description {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+    line-height: 1.47;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__description {
+    font-size: 1.4rem;
+    line-height: 1.42;
+    letter-spacing: -0.014em;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/content-section.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.content_section__wrap {
+  max-width: 112rem;
+}
+
+.content_section strong {
+  display: block;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .content_section strong {
+    font-size: 2.2rem;
+    line-height: 1.4;
+  }
+  .content_section strong:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content_section strong {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: -0.016em;
+  }
+  .content_section strong:not(:last-child) {
+    margin-bottom: 1.4rem;
+  }
+}
+
+.content_section p {
+  font-weight: 400;
+  line-height: 1.5;
+}
+@media screen and (min-width: 1024px) {
+  .content_section p {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .content_section p {
+    font-size: 1.4rem;
+  }
+}
+.content_section p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 767px) {
+  .content_section p {
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.content_section h3 {
+  font-size: 3.8rem;
+  font-weight: 500;
+  letter-spacing: -0.016em;
+  line-height: 1.2;
+}
+.content_section h3:not(:last-child) {
+  margin-bottom: 1.1rem;
+}
+
+.content_section h4 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.014em;
+}
+.content_section h4:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+.content_section h4:not(:first-child) {
+  margin-top: 3.1rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .content_section p + h3,
+.content_section p + h4 {
+    margin-top: 2.4rem;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/category-titled-slider.scss ***!
+  \**************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .banner_slider + .category_titled_slider {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/universal/section-head.scss ***!
+  \**************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.section_head {
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .section_head:not(:last-child) {
+    margin-bottom: 3.4rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_head:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_head {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_head {
+    align-items: flex-end;
+  }
+}
+
+h2.section_head__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  h2.section_head__title {
+    font-size: 4.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  h2.section_head__title {
+    font-size: 2.6rem;
+  }
+}
+
+h3.section_head__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  h3.section_head__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  h3.section_head__title {
+    font-size: 2.2rem;
+  }
+}
+
+.section_head__title:not(:last-child) {
+  margin-right: 1.2rem;
+}
+
+.section_head__right {
+  margin-left: auto;
+}
+@media screen and (max-width: 767px) {
+  .section_head__right {
+    padding-bottom: 4px;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/category-slider.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.category_slider {
+  position: relative;
+}
+
+.category_slider__button {
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+}
+.category_slider__button.category_slider__button--prev_mod {
+  left: 0;
+  transform: translate(50%, -50%) rotate(180deg);
+}
+@media screen and (min-width: 1024px) {
+  .category_slider__button.category_slider__button--prev_mod {
+    margin-left: calc(50% - 50vw - 4px);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_slider__button.category_slider__button--prev_mod {
+    margin-left: calc(50% - 50vw - 1.2rem);
+  }
+}
+.category_slider__button.category_slider__button--next_mod {
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 1024px) {
+  .category_slider__button.category_slider__button--next_mod {
+    margin-right: calc(50% - 50vw - 4px);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_slider__button.category_slider__button--next_mod {
+    margin-right: calc(50% - 50vw - 1.2rem);
+  }
+}
+.category_slider__button.swiper-button-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+@media screen and (min-width: 1024px) {
+  .category_slider__button {
+    margin-top: -0.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_slider__button {
+    margin-top: -1.8rem;
+  }
+}
+
+.category_slider__wrap.swiper {
+  overflow: visible;
+}
+@media screen and (min-width: 1024px) {
+  .category_slider__wrap.swiper {
+    margin-right: -2.5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_slider__wrap.swiper {
+    margin-right: -1.5rem;
+  }
+}
+
+.category_slider__item {
+  min-height: clamp(28rem, 30vw, 48rem);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.category_slider__item.swiper-slide {
+  height: auto;
+}
+@media screen and (min-width: 1024px) {
+  .category_slider__item {
+    padding-right: 2.5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_slider__item {
+    padding-right: 1.5rem;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/category-item.scss ***!
+  \*****************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.category_item {
+  position: relative;
+  z-index: 1;
+  display: block;
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.category_item::before, .category_item::after {
+  z-index: 1;
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+}
+.category_item::before {
+  background: linear-gradient(29deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+.category_item::after {
+  background: linear-gradient(29deg, #bb753a 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0;
+}
+.category_item:hover, .category_item:focus {
+  text-decoration: none;
+}
+.category_item:hover .category_item_img, .category_item:focus .category_item_img {
+  scale: 1.06;
+}
+.category_item:hover::before, .category_item:focus::before {
+  opacity: 0;
+}
+.category_item:hover::after, .category_item:focus::after {
+  opacity: 0.8;
+}
+@media screen and (min-width: 1024px) {
+  .category_item {
+    padding: 4.2rem 3.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_item {
+    padding: 2.8rem 2.4rem;
+  }
+}
+
+.category_item_img {
+  z-index: 0;
+  transition: scale 0.3s ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.category_item_img__in {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category_item__content {
+  position: relative;
+  z-index: 2;
+  margin-top: auto;
+  color: #fff;
+}
+
+.category_item__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+@media screen and (min-width: 1024px) {
+  .category_item__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_item__title {
+    font-size: 2.2rem;
+  }
+}
+.category_item__title:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.category_item__text {
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .category_item__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_item__text {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .category_item__text {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_item__text {
+    line-height: 1.14;
+    letter-spacing: -0.016em;
+  }
+}
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/post-preview.scss ***!
+  \****************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.post_preview {
+  background-color: #fcf5ec;
+}
+.post_preview.post_preview--bg_mod_1 {
+  background-color: #f0f2f4;
+}
+.post_preview.post_preview--bg_mod_2 {
+  background-color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .post_preview {
+    padding-top: 8rem;
+    padding-bottom: 9rem;
+  }
+}
+
+.post_preview__wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin: 0 -2.3rem -5rem 0;
+}
+
+.post_preview__video_trigger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  width: 10.4rem;
+  height: 10.4rem;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  will-change: transform;
+}
+.post_preview__video_trigger:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  color: #bb753a;
+}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/post-preview-card.scss ***!
+  \*********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .post_preview_card {
+    width: 50%;
+    padding: 0 2.3rem 5rem 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .post_preview_card {
+    width: 100%;
+    padding: 0 2.3rem 1.8rem 0;
+  }
+}
+
+.post_preview_card__img_link {
+  display: block;
+}
+.post_preview_card__img_link:hover .post_preview_card__img_wrap::before, .post_preview_card__img_link:focus .post_preview_card__img_wrap::before {
+  opacity: 0.6;
+}
+@media screen and (min-width: 1024px) {
+  .post_preview_card__img_link:not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .post_preview_card__img_link:not(:last-child) {
+    margin-bottom: 1.8rem;
+  }
+}
+
+.post_preview_card__img_wrap {
+  position: relative;
+}
+.post_preview_card__img_wrap::before {
+  z-index: 2;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(5deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+}
+
+.post_preview_card__img_w {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .post_preview_card__img_w {
+    max-height: 28rem;
+    padding-bottom: 46.6%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .post_preview_card__img_w {
+    padding-bottom: 57%;
+  }
+}
+
+.post_preview_card__img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post_preview_card__title {
+  color: #000;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  .post_preview_card__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .post_preview_card__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .post_preview_card__title {
+    letter-spacing: -0.018em;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .post_preview_card__title {
+    letter-spacing: -0.03em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .post_preview_card__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .post_preview_card__title:not(:last-child) {
+    margin-bottom: 0.7rem;
+  }
+}
+
+.post_preview_card__text {
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .post_preview_card__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .post_preview_card__text {
+    font-size: 1.4rem;
+  }
+}
+.post_preview_card__text:not(:last-child) {
+  margin-bottom: 1.7rem;
+}
+@media screen and (min-width: 1024px) {
+  .post_preview_card__text {
+    width: 90%;
+    line-height: 1.48;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .post_preview_card__text {
+    letter-spacing: -0.015em;
+    line-height: 1.41;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .post_preview_card__btn {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_js_pages_resourses-coocking-tips_js.css.map*/

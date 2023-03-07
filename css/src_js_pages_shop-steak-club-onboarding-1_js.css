@@ -1,0 +1,443 @@
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/onboarding-form.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.onboarding_form {
+  color: #000;
+}
+
+.onboarding_form__info {
+  max-width: 112rem;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .onboarding_form__info:not(:last-child) {
+    margin-bottom: 5.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__info:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.onboarding_form__body {
+  max-width: 60rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.onboarding_form__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  .onboarding_form__title:not(:last-child) {
+    margin-bottom: 4.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__title:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .onboarding_form__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .onboarding_form__title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .onboarding_form__form:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__form:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .onboarding_form__items:not(:last-child) {
+    margin-bottom: 4.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__items:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .onboarding_form__item:not(:last-child) {
+    margin-bottom: 4.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__item:not(:last-child) {
+    margin-bottom: 2.4rem;
+  }
+}
+
+.onboarding_form__button {
+  width: 100%;
+}
+
+.onboarding_form__alt {
+  text-align: center;
+  line-height: 1.6;
+}
+.onboarding_form__alt a {
+  color: #bb753a;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.onboarding_form__alt a:hover, .onboarding_form__alt a:focus {
+  text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+  .onboarding_form__alt {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__alt {
+    font-size: 1.4rem;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/cooking-info-list.scss ***!
+  \*********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .cooking_info_list .info_item, .coocking_tips_list .info_item, .steak_club_info .info_item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info_item__img:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_info_list .info_item__img {
+    width: 14rem;
+    height: 14rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .steak_club_info .info_item__img, .coocking_tips_list .info_item__img {
+    width: 13.2rem;
+    height: 13.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .steak_club_info .info_item__img:not(:last-child), .coocking_tips_list .info_item__img:not(:last-child) {
+    margin-right: 2.2rem;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .info_item__img {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__img {
+    flex-shrink: 0;
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+}
+
+.info_item__img_in {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info_item__content {
+  padding-left: 1.4rem;
+}
+.coocking_tips_list .info_item__content {
+  padding-left: 0.8rem;
+}
+@media screen and (min-width: 768px) {
+  .steak_club_info .info_item__content {
+    padding-left: 0.6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .steak_club_info .info_item__content {
+    padding-left: 0;
+    padding-top: 0.4rem;
+  }
+}
+
+.info_item__title {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.14;
+}
+@media screen and (min-width: 1024px) {
+  .info_item__title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .info_item__title {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info_item__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__title:not(:last-child) {
+    margin-bottom: 0.6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info_item__title:not(.steak_club_info .info_item__title) {
+    min-height: 2.7em;
+  }
+}
+.coocking_tips_list .info_item__title:not(:last-child), .steak_club_info .info_item__title:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .info_item__title {
+    margin-right: 2.2rem;
+  }
+  .info_item__title:not(.steak_club_info .info_item__title) {
+    min-height: 2em;
+  }
+}
+
+.info_item__description {
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .info_item__description {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+    line-height: 1.47;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__description {
+    font-size: 1.4rem;
+    line-height: 1.42;
+    letter-spacing: -0.014em;
+  }
+}
+
+.cooking_info_list__bg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.cooking_info_list__bg_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cooking_info_list__wrap {
+  background-color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_info_list__wrap {
+    padding: 4.6rem 7rem 6.6rem 7.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_info_list__wrap {
+    padding: 3rem 2.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_info_list__array {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0 -3.8rem -4.8rem 0;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .cooking_info_list__array {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0 -3.8rem -4.8rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_info_list__item {
+    width: 25%;
+    padding: 0 3.8rem 4.8rem 0;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .cooking_info_list__item {
+    width: 50%;
+    padding: 0 3.8rem 4.8rem 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cooking_info_list__item:not(:last-child) {
+    margin-bottom: 1.8rem;
+  }
+}
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/step-form-head-mixin.scss ***!
+  \************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.step_form_head {
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+.step_form_head.step_form_head--centered_mod {
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-end;
+  }
+}
+
+.step_form_head__wrap {
+  flex: auto;
+}
+.step_form_head__wrap:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.step_form_head__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title:not(:last-child) {
+    margin-bottom: 0.6rem;
+  }
+}
+.step_form_head--centered_mod .step_form_head__title {
+  margin: 0 auto 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title {
+    max-width: 95rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title {
+    letter-spacing: -0.03em;
+  }
+}
+
+.step_form_head__text {
+  font-weight: 400;
+  max-width: 95rem;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__text {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__text {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__text {
+    line-height: 1.45;
+    letter-spacing: -0.015em;
+  }
+}
+.step_form_head--centered_mod .step_form_head__text {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 479px) {
+  .step_form_head__button .btn_1 {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=src_js_pages_shop-steak-club-onboarding-1_js.css.map*/

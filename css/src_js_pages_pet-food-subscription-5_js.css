@@ -1,0 +1,210 @@
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/pet-step-form.scss ***!
+  \*****************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.pet_food__content {
+  text-align: center;
+}
+
+.pet_food__content h4 {
+  font-weight: 500;
+  margin-bottom: 2.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .pet_food__content h4 {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .pet_food__content h4 {
+    font-size: 1.8rem;
+  }
+}
+
+.pet_food__input_w {
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .pet_food__input_w {
+    max-width: 60rem;
+  }
+}
+
+.pet_food__head {
+  margin-bottom: 3.4rem;
+}
+
+.pet_food__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.9rem;
+  letter-spacing: -0.016em;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .pet_food__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .pet_food__title {
+    font-size: 2.2rem;
+  }
+}
+
+.pet_food__descr {
+  font-weight: 400;
+  max-width: 91rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 150%;
+}
+@media screen and (min-width: 1024px) {
+  .pet_food__descr {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .pet_food__descr {
+    font-size: 1.4rem;
+  }
+}
+
+.pet_food__3_box {
+  width: 100%;
+  max-width: 122.4rem;
+  margin: 0 auto;
+}
+
+.pet_food__btn_w {
+  text-align: center;
+}
+
+.pet_food__3_list_w {
+  margin-bottom: 4.4rem;
+}
+
+.pet_food__3_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: stretch;
+  margin: 0 -2.4rem -2.4rem 0;
+}
+
+.pet_food__3_item {
+  width: 25%;
+  padding: 0 2.4rem 2.4rem 0;
+}
+
+.pet_food__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: stretch;
+  margin: 0 -2.4rem -2.4rem 0;
+}
+
+.pet_food__list_item {
+  width: 25%;
+  padding: 0 2.4rem 2.4rem 0;
+  text-align: left;
+}
+.pet_food__list--columns_3_mod .pet_food__list_item {
+  width: 33.33%;
+}
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/pet-food-subscription-step-5.scss ***!
+  \********************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.pet_food__step_frame_title {
+  margin-bottom: 3.6rem;
+  text-align: center;
+}
+.pet_food__step_frame_title a,
+.pet_food__step_frame_title strong {
+  position: relative;
+  display: inline-block;
+  margin: 0 0.8rem;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: -0.016em;
+}
+@media screen and (min-width: 768px) {
+  .pet_food__step_frame_title a,
+.pet_food__step_frame_title strong {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pet_food__step_frame_title a,
+.pet_food__step_frame_title strong {
+    font-size: 1.8rem;
+  }
+}
+.pet_food__step_frame_title a::after,
+.pet_food__step_frame_title strong::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 3px;
+  content: "";
+  background-color: #bb753a;
+  transition: background 0.3s ease;
+}
+.pet_food__step_frame_title a:first-child,
+.pet_food__step_frame_title strong:first-child {
+  margin-left: 0;
+}
+.pet_food__step_frame_title a:last-child,
+.pet_food__step_frame_title strong:last-child {
+  margin-right: 0;
+}
+.pet_food__step_frame_title a {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.pet_food__step_frame_title a:hover, .pet_food__step_frame_title a:focus {
+  text-decoration: none;
+  color: #bb753a;
+}
+.pet_food__step_frame_title a:hover::after, .pet_food__step_frame_title a:focus::after {
+  background-color: #8c592e;
+}
+@media screen and (min-width: 768px) {
+  .pet_food__step_frame_title {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pet_food__step_frame_title {
+    font-size: 1.6rem;
+  }
+}
+
+.pet_food__step_frame_btn_w {
+  text-align: center;
+}
+
+.pet_food__step_frame {
+  padding: 4rem 4rem 5.5rem;
+  border-radius: 0.8rem;
+  border: 1px solid #f2e4d1;
+}
+.pet_food__step_frame:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+/*# sourceMappingURL=src_js_pages_pet-food-subscription-5_js.css.map*/

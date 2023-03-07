@@ -1,0 +1,47 @@
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/retail-product-list.scss ***!
+  \***********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.retail_product_list:not(:last-child) {
+  margin-bottom: 6rem;
+}
+
+.retail_product_list__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: stretch;
+}
+@media screen and (min-width: 768px) {
+  .retail_product_list__items {
+    margin: 0 -2.4rem -5.8rem 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .retail_product_list__items {
+    margin: 0 -1.6rem -3.4rem 0;
+  }
+}
+
+.retail_product_list__item {
+  min-height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .retail_product_list__item {
+    width: 25%;
+    padding: 0 2.4rem 5.8rem 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .retail_product_list__item {
+    width: 50%;
+    padding: 0 1.6rem 3.4em 0;
+  }
+}
+
+/*# sourceMappingURL=src_js_pages_our-products-wagyu-retail-product_js.css.map*/

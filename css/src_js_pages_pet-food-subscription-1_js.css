@@ -1,0 +1,270 @@
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/cooking-info-list.scss ***!
+  \*********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .cooking_info_list .info_item, .coocking_tips_list .info_item, .steak_club_info .info_item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info_item__img:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cooking_info_list .info_item__img {
+    width: 14rem;
+    height: 14rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .steak_club_info .info_item__img, .coocking_tips_list .info_item__img {
+    width: 13.2rem;
+    height: 13.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .steak_club_info .info_item__img:not(:last-child), .coocking_tips_list .info_item__img:not(:last-child) {
+    margin-right: 2.2rem;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .info_item__img {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__img {
+    flex-shrink: 0;
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+}
+
+.info_item__img_in {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info_item__content {
+  padding-left: 1.4rem;
+}
+.coocking_tips_list .info_item__content {
+  padding-left: 0.8rem;
+}
+@media screen and (min-width: 768px) {
+  .steak_club_info .info_item__content {
+    padding-left: 0.6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .steak_club_info .info_item__content {
+    padding-left: 0;
+    padding-top: 0.4rem;
+  }
+}
+
+.info_item__title {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.14;
+}
+@media screen and (min-width: 1024px) {
+  .info_item__title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .info_item__title {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info_item__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__title:not(:last-child) {
+    margin-bottom: 0.6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info_item__title:not(.steak_club_info .info_item__title) {
+    min-height: 2.7em;
+  }
+}
+.coocking_tips_list .info_item__title:not(:last-child), .steak_club_info .info_item__title:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .info_item__title {
+    margin-right: 2.2rem;
+  }
+  .info_item__title:not(.steak_club_info .info_item__title) {
+    min-height: 2em;
+  }
+}
+
+.info_item__description {
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .info_item__description {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+    line-height: 1.47;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info_item__description {
+    font-size: 1.4rem;
+    line-height: 1.42;
+    letter-spacing: -0.014em;
+  }
+}
+
+.cooking_info_list__bg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.cooking_info_list__bg_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cooking_info_list__wrap {
+  background-color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .cooking_info_list__wrap {
+    padding: 4.6rem 7rem 6.6rem 7.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooking_info_list__wrap {
+    padding: 3rem 2.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_info_list__array {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0 -3.8rem -4.8rem 0;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .cooking_info_list__array {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0 -3.8rem -4.8rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cooking_info_list__item {
+    width: 25%;
+    padding: 0 3.8rem 4.8rem 0;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .cooking_info_list__item {
+    width: 50%;
+    padding: 0 3.8rem 4.8rem 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cooking_info_list__item:not(:last-child) {
+    margin-bottom: 1.8rem;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/text-section-mixin.scss ***!
+  \**********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.text_section__title {
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .text_section__title {
+    max-width: 90%;
+    font-size: 2.2rem;
+    line-height: 1.45;
+  }
+  .text_section__title:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .text_section__title {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+  }
+  .text_section__title:not(:last-child) {
+    margin-bottom: 1.4rem;
+  }
+}
+
+.text_section__description {
+  font-weight: 400;
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .text_section__description {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .text_section__description {
+    font-size: 1.4rem;
+  }
+}
+.text_section__description:not(:last-child) {
+  margin-bottom: 3.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .text_section__description {
+    max-width: 92%;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .text_section__description {
+    line-height: 1.45;
+    letter-spacing: -0.012em;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+/*# sourceMappingURL=src_js_pages_pet-food-subscription-1_js.css.map*/
