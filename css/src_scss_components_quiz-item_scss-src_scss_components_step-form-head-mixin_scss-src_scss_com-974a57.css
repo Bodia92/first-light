@@ -1,0 +1,716 @@
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/step-form-head-mixin.scss ***!
+  \************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.step_form_head {
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+.step_form_head.step_form_head--centered_mod {
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-end;
+  }
+}
+
+.step_form_head__wrap {
+  flex: auto;
+}
+.step_form_head__wrap:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.step_form_head__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title:not(:last-child) {
+    margin-bottom: 0.6rem;
+  }
+}
+.step_form_head--centered_mod .step_form_head__title {
+  margin: 0 auto 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title {
+    max-width: 95rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title {
+    letter-spacing: -0.03em;
+  }
+}
+
+.step_form_head__text {
+  font-weight: 400;
+  max-width: 95rem;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__text {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__text {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__text {
+    line-height: 1.45;
+    letter-spacing: -0.015em;
+  }
+}
+.step_form_head--centered_mod .step_form_head__text {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 479px) {
+  .step_form_head__button .btn_1 {
+    width: 100%;
+  }
+}
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/step-form-list.scss ***!
+  \******************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.step_form__wrap h4 {
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.04rem;
+}
+@media screen and (min-width: 1024px) {
+  .step_form__wrap h4 {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form__wrap h4 {
+    font-size: 1.8rem;
+  }
+}
+.step_form__wrap h4:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+@media screen and (min-width: 1024px) {
+  .step_form__wrap:not(:last-child) {
+    margin-bottom: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form__wrap:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.step_form__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: stretch;
+}
+@media screen and (min-width: 1024px) {
+  .step_form__list {
+    margin: 0 -2.6rem -2.6rem 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form__list {
+    margin: 0 -1.2rem -1.2rem 0;
+  }
+}
+
+.step_form__list--bottom_spacing_mod:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.step_form__item {
+  height: auto;
+}
+@media screen and (min-width: 1024px) {
+  .step_form__item {
+    width: 25%;
+    padding: 0 2.6rem 2.6rem 0;
+  }
+}
+@media (max-width: 1023px) and (min-width: 640px) {
+  .step_form__item {
+    width: 50%;
+    padding: 0 1.2rem 1.2rem 0;
+  }
+}
+@media screen and (max-width: 639px) {
+  .step_form__item {
+    width: 100%;
+    padding: 0 1.2rem 1.2rem 0;
+  }
+}
+@media screen and (min-width: 640px) {
+  .step_form__list--2_col_mod .step_form__item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 639px) {
+  .step_form__list--2_col_mod .step_form__item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form__list--3_col_mod .step_form__item {
+    width: 33.3333%;
+  }
+}
+@media (max-width: 1023px) and (min-width: 640px) {
+  .step_form__list--3_col_mod .step_form__item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 639px) {
+  .step_form__list--3_col_mod .step_form__item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form__list--4_col_mod .step_form__item {
+    width: 25%;
+    padding: 0 2.4rem 2.4rem 0;
+  }
+}
+@media (max-width: 1023px) and (min-width: 640px) {
+  .step_form__list--4_col_mod .step_form__item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 639px) {
+  .step_form__list--4_col_mod .step_form__item {
+    width: 100%;
+  }
+}
+
+.step_form__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .step_form__btn:not(:last-child) {
+    margin-bottom: 3.8rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .step_form__btn:not(:last-child) {
+    margin-bottom: 4.4rem;
+  }
+}
+
+.step_form__body {
+  height: 0;
+  opacity: 0;
+  transform: translateY(-2rem);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.onboarding_2--active_state .step_form__body {
+  height: 100%;
+  opacity: 1;
+  transform: translateY(0);
+}
+@media screen and (max-width: 1023px) {
+  .step_form__body {
+    display: none;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/step-form-progress.scss ***!
+  \**********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.section--progress_mod {
+  padding-top: 3rem;
+}
+@media screen and (min-width: 1024px) {
+  .section--progress_mod {
+    padding-bottom: 11.2rem;
+  }
+}
+
+.step_progress {
+  width: 100%;
+  height: 0.8rem;
+  background-color: #f0f2f4;
+  overflow: hidden;
+}
+@media screen and (min-width: 1024px) {
+  .step_progress {
+    position: relative;
+    margin-bottom: 5.9rem;
+    border-radius: 2px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 2.6rem;
+  }
+}
+
+.step_progress__line {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  background-color: #bb753a;
+  border-radius: 2px;
+}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/quiz-item.scss ***!
+  \*************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.quiz_item {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: 0.8rem;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+@media (any-hover: hover) {
+  .quiz_item:hover {
+    box-shadow: 0 4px 0.8rem rgba(0, 0, 0, 0.2);
+  }
+}
+.quiz_item.quiz_item--gray_mod {
+  border-radius: 0;
+  background-color: #f0f2f4;
+}
+
+.quiz_item__input {
+  position: absolute;
+  padding: 0.4rem;
+  margin: 0;
+  background-color: #bb753a;
+  border-radius: 50%;
+  opacity: 0;
+  color: #fff;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__input {
+    right: 1.7rem;
+    top: 2.2rem;
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__input {
+    top: 1.4rem;
+    right: 1.4rem;
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+}
+.quiz_item__input:after {
+  position: absolute;
+  top: 42%;
+  display: block;
+  height: 1.4rem;
+  width: 0.8rem;
+  content: "";
+  border: 0.3rem solid #fff;
+  border-top: 0;
+  border-left: 0;
+  transform: rotate(45deg) translate(-39%, -46%);
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__input:after {
+    left: 29%;
+    height: 1.4rem;
+    width: 0.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__input:after {
+    left: 27%;
+    height: 1.2rem;
+    width: 0.6rem;
+  }
+}
+
+.quiz_item__input:checked {
+  opacity: 1;
+}
+
+.quiz_item__body {
+  height: 100%;
+  border-radius: 0.8rem;
+  box-shadow: inset 0 0 0 1px #f2e4d1;
+  transition: box-shadow 0.3s ease-out;
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__body {
+    padding: 2.8rem 1rem 3.8rem 3.1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__body {
+    padding: 1.8rem 2rem 2.2rem 2.3rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form__list--2_col_mod .quiz_item__body {
+    padding: 3.1rem 1rem 5.1rem 4.1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form__list--2_col_mod .quiz_item__body {
+    padding: 2rem 2rem 2.1rem 2.3rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form__list--3_col_mod .quiz_item__body {
+    padding: 3.2rem 1rem 4.1rem 4.1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form__list--3_col_mod .quiz_item__body {
+    padding: 2rem 2rem 2.1rem 2.3rem;
+  }
+}
+.step_form__list--4_col_mod .quiz_item__body {
+  padding-top: 2.8rem;
+  padding-right: 3.2rem;
+  padding-bottom: 4rem;
+}
+.quiz_item__body > *:first-child {
+  padding-right: 4.6rem;
+}
+.quiz_item--gray_mod .quiz_item__body {
+  box-shadow: inset 0 0 0 0 #f2e4d1;
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item--simple_mod .quiz_item__body {
+    padding: 2.4rem 2.8rem 2.9rem;
+  }
+}
+
+.quiz_item__input:checked ~ .quiz_item__body {
+  box-shadow: inset 0 0 0 3px #bb753a;
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item--acc_mod .quiz_item__input:checked ~ .quiz_item__body {
+    padding: 1.8rem 2rem 2.8rem 2.3rem;
+  }
+}
+
+.quiz_item__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 0.96;
+  word-wrap: normal;
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__title {
+    letter-spacing: -0.03em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__title:not(:last-child) {
+    margin-bottom: 1.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__title:not(:last-child) {
+    margin-bottom: 0.4rem;
+  }
+}
+.quiz_item__title span {
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: -0.01em;
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__title span {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__title span {
+    font-size: 1.8rem;
+  }
+}
+.step_form__list--4_col_mod .quiz_item__title {
+  font-weight: 500;
+}
+@media screen and (min-width: 1024px) {
+  .step_form__list--4_col_mod .quiz_item__title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form__list--4_col_mod .quiz_item__title {
+    font-size: 1.8rem;
+  }
+}
+.step_form__list--4_col_mod .quiz_item__title:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.quiz_item__subtitle {
+  font-weight: 400;
+  font-weight: 500;
+  color: #868686;
+  letter-spacing: 0.086em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__subtitle {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__subtitle {
+    font-size: 1.4rem;
+  }
+}
+.quiz_item__subtitle:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.step_form__list--2_col_mod .quiz_item__subtitle, .step_form__list--3_col_mod .quiz_item__subtitle {
+  margin-bottom: 0.9rem;
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__subtitle {
+    display: none;
+  }
+}
+
+.quiz_item__cost {
+  font-weight: 400;
+  line-height: 1.5;
+  font-weight: 500;
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__cost {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__cost {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__cost:not(:last-child) {
+    margin-bottom: 0.3rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__cost:not(:last-child) {
+    margin-bottom: 0.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__cost {
+    text-transform: uppercase;
+    color: #868686;
+    letter-spacing: 0.07em;
+  }
+}
+
+.quiz_item__description {
+  font-weight: 400;
+  line-height: 1.5;
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__description {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__description {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__description:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__description:not(:last-child) {
+    margin-bottom: 0.7rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__description {
+    letter-spacing: -0.015em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form__list--2_col_mod .quiz_item__description, .step_form__list--3_col_mod .quiz_item__description {
+    padding-right: 2rem;
+  }
+}
+
+.quiz_item__list_item {
+  font-weight: 400;
+  position: relative;
+  line-height: 1.5;
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__list_item {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__list_item {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__list_item {
+    padding-left: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__list_item {
+    padding-left: 3.6rem;
+  }
+}
+.quiz_item__list_item::after {
+  position: absolute;
+  top: 50%;
+  content: "";
+  border-radius: 50%;
+  background-color: #000;
+  transform: translateY(-50%);
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__list_item::after {
+    left: 0.4rem;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .quiz_item__list_item::after {
+    left: 1rem;
+    width: 3px;
+    height: 3px;
+  }
+}
+
+.quiz_item__img_w {
+  display: block;
+  width: 100%;
+  height: 15.4rem;
+  margin-bottom: 2.2rem;
+}
+
+.quiz_item__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1023px) {
+  .quiz_item--acc_mod .quiz_item__input:not(:checked) ~ .quiz_item__body .quiz_item__content {
+    padding-right: 4.2rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+.quiz_item__acc_trigger {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0.8rem 0.4rem;
+  color: #bb753a;
+  pointer-events: none;
+}
+.quiz_item__input:checked ~ .quiz_item__body .quiz_item__acc_trigger {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .quiz_item__acc_trigger {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_scss_components_quiz-item_scss-src_scss_components_step-form-head-mixin_scss-src_scss_com-974a57.css.map*/

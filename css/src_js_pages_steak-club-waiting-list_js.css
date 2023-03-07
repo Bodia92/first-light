@@ -1,0 +1,67 @@
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/waiting-form.scss ***!
+  \****************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.waiting_form {
+  background-color: #f0f2f4;
+}
+@media screen and (min-width: 1024px) {
+  .waiting_form {
+    padding: 4.8rem 8rem 6.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .waiting_form {
+    padding: 2.4rem 2rem 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .waiting_form__wrap:not(:last-child) {
+    margin-bottom: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .waiting_form__wrap:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .waiting_form__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5.5rem -2.6rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .waiting_form__item {
+    padding: 0 5.5rem 2.6rem 0;
+  }
+  .waiting_form__item:not(.waiting_form__item--full_mod) {
+    width: 50%;
+  }
+  .waiting_form__item.waiting_form__item--full_mod {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .waiting_form__item {
+    width: 100%;
+  }
+  .waiting_form__item:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .waiting_form__button {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=src_js_pages_steak-club-waiting-list_js.css.map*/

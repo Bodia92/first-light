@@ -1,0 +1,490 @@
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/step-form-head-mixin.scss ***!
+  \************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.step_form_head {
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+.step_form_head.step_form_head--centered_mod {
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-end;
+  }
+}
+
+.step_form_head__wrap {
+  flex: auto;
+}
+.step_form_head__wrap:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.step_form_head__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title:not(:last-child) {
+    margin-bottom: 0.6rem;
+  }
+}
+.step_form_head--centered_mod .step_form_head__title {
+  margin: 0 auto 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title {
+    max-width: 95rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title {
+    letter-spacing: -0.03em;
+  }
+}
+
+.step_form_head__text {
+  font-weight: 400;
+  max-width: 95rem;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__text {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__text {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__text {
+    line-height: 1.45;
+    letter-spacing: -0.015em;
+  }
+}
+.step_form_head--centered_mod .step_form_head__text {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 479px) {
+  .step_form_head__button .btn_1 {
+    width: 100%;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/product-pairs-list-mixin.scss ***!
+  \****************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.product_pairs {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .product_pairs {
+    align-items: stretch;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .product_pairs {
+    align-items: center;
+    align-content: center;
+  }
+}
+
+.product_pairs__image {
+  position: relative;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.product_pairs__image::after {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .product_pairs__image:not(:last-child) {
+    margin-right: 3.9rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .product_pairs__image:not(:last-child) {
+    margin-right: 1.9rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .featured_recipe .product_pairs__image:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .featured_recipe .product_pairs__image:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .featured_recipe .product_pairs__image {
+    width: 16rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .featured_recipe .product_pairs__image {
+    width: 42%;
+  }
+}
+.cuts_info__post_list_item .product_pairs__image {
+  width: 16rem;
+}
+.cuts_info__post_list_item .product_pairs__image:not(:last-child) {
+  margin-right: 3rem;
+}
+.product_pairs__image:hover .product_pairs_img, .product_pairs__image:focus .product_pairs_img {
+  scale: 1.06;
+}
+@media screen and (min-width: 1024px) {
+  .product_pairs__image {
+    width: 20.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .product_pairs__image {
+    width: 43%;
+    min-height: 12rem;
+    max-height: 18rem;
+  }
+}
+
+.product_pairs_img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: scale 0.3s ease;
+}
+
+.product_pairs_img__in {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product_pairs__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.product_pairs__title {
+  font-weight: 500;
+  max-width: 29.8rem;
+  color: #000;
+  letter-spacing: -0.018em;
+  line-height: 1.2;
+}
+@media screen and (min-width: 1024px) {
+  .product_pairs__title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .product_pairs__title {
+    font-size: 1.8rem;
+  }
+}
+.product_pairs__title:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.featured_recipe .product_pairs__title:not(:last-child) {
+  margin-bottom: 1.4rem;
+}
+@media screen and (min-width: 768px) {
+  .featured_recipe .product_pairs__title {
+    font-size: 2.4rem;
+  }
+}
+.cuts_info__post_list_item .product_pairs__title {
+  letter-spacing: -0.055em;
+  line-height: 1.08;
+}
+.cuts_info__post_list_item .product_pairs__title:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .cuts_info__post_list_item .product_pairs__title {
+    font-size: 2.6rem;
+  }
+}
+
+.product_pairs__title a {
+  color: #000;
+  transition: color 0.3s;
+}
+.product_pairs__title a:hover, .product_pairs__title a:focus {
+  text-decoration: none;
+  color: #615656;
+}
+
+.product_pairs__rating {
+  display: flex;
+  align-items: center;
+  color: #ce9c53;
+}
+.cuts_info__post_list_item .product_pairs__rating {
+  font-size: 1.4rem;
+  letter-spacing: -0.018em;
+}
+.cuts_info__post_list_item .product_pairs__rating span {
+  padding-left: 0.8rem;
+}
+.product_pairs__rating:focus, .product_pairs__rating:hover {
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .product_pairs__rating:not(:last-child) {
+    margin-bottom: 1.4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .product_pairs__rating {
+    order: 3;
+  }
+  .product_pairs__rating img {
+    width: 50%;
+  }
+}
+
+.product_pairs__price {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: 0.046em;
+  line-height: 1;
+  text-align: left;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .featured_recipe .product_pairs__price {
+    font-size: 2rem;
+  }
+}
+.cuts_info__post_list_item .product_pairs__price {
+  font-size: 2rem;
+  letter-spacing: 0.052em;
+}
+@media screen and (min-width: 1024px) {
+  .product_pairs__price {
+    font-size: 2.2rem;
+  }
+  .product_pairs__price:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .product_pairs__price {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .product_pairs__price {
+    margin-bottom: 0.6rem;
+  }
+}
+
+.product_pairs__old_price {
+  font-weight: 300;
+  color: #989898;
+}
+@media screen and (min-width: 1024px) {
+  .product_pairs__old_price:not(:last-child) {
+    margin-right: 1.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .product_pairs__old_price:not(:last-child) {
+    margin-right: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .product_pairs__buttons {
+    order: 4;
+  }
+}
+@media screen and (max-width: 767px) {
+  .product_pairs__buttons {
+    display: none;
+  }
+}
+
+.product_pairs_list__wrap {
+  background-color: #fcf5ec;
+}
+.product_pairs_list__wrap:not(:last-child) {
+  margin-bottom: 4rem;
+}
+.product_pairs_list__wrap.product_pairs_list__wrap--bg_mod {
+  background-color: #f0f2f4;
+}
+@media screen and (min-width: 1024px) {
+  .product_pairs_list__wrap {
+    padding: 4.8rem 6.4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .product_pairs_list__wrap {
+    padding: 2.4rem 2.4rem 2.8rem;
+  }
+}
+
+.product_pairs_list__title {
+  font-weight: 500;
+  letter-spacing: -0.017em;
+}
+@media screen and (min-width: 1024px) {
+  .product_pairs_list__title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .product_pairs_list__title {
+    font-size: 1.8rem;
+  }
+}
+.product_pairs_list__title:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.product_pairs_list__container {
+  margin: 0 -2rem -2rem 0;
+}
+@media screen and (min-width: 1024px) {
+  .product_pairs_list__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.product_pairs_list__item {
+  padding: 0 2rem 2rem 0;
+}
+@media screen and (min-width: 1024px) {
+  .product_pairs_list__item {
+    width: 50%;
+  }
+}
+
+.product_pairs_list__button {
+  text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+  .product_pairs_list__button .btn_1 {
+    width: 100%;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/step-form-progress.scss ***!
+  \**********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.section--progress_mod {
+  padding-top: 3rem;
+}
+@media screen and (min-width: 1024px) {
+  .section--progress_mod {
+    padding-bottom: 11.2rem;
+  }
+}
+
+.step_progress {
+  width: 100%;
+  height: 0.8rem;
+  background-color: #f0f2f4;
+  overflow: hidden;
+}
+@media screen and (min-width: 1024px) {
+  .step_progress {
+    position: relative;
+    margin-bottom: 5.9rem;
+    border-radius: 2px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 2.6rem;
+  }
+}
+
+.step_progress__line {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  background-color: #bb753a;
+  border-radius: 2px;
+}
+
+/*# sourceMappingURL=src_js_pages_shop-steak-club-onboarding-5_js.css.map*/
