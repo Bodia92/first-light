@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .cooking_info_list .info_item, .coocking_tips_list .info_item, .steak_club_info .info_item {
+  .cooking_info_list .info_item, .cooking_tips_list .info_item, .steak_club_info .info_item {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -25,13 +25,13 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .steak_club_info .info_item__img, .coocking_tips_list .info_item__img {
+  .steak_club_info .info_item__img, .cooking_tips_list .info_item__img {
     width: 13.2rem;
     height: 13.2rem;
   }
 }
 @media screen and (max-width: 767px) {
-  .steak_club_info .info_item__img:not(:last-child), .coocking_tips_list .info_item__img:not(:last-child) {
+  .steak_club_info .info_item__img:not(:last-child), .cooking_tips_list .info_item__img:not(:last-child) {
     margin-right: 2.2rem;
   }
 }
@@ -59,7 +59,7 @@
 .info_item__content {
   padding-left: 1.4rem;
 }
-.coocking_tips_list .info_item__content {
+.cooking_tips_list .info_item__content {
   padding-left: 0.8rem;
 }
 @media screen and (min-width: 768px) {
@@ -104,7 +104,7 @@
     min-height: 2.7em;
   }
 }
-.coocking_tips_list .info_item__title:not(:last-child), .steak_club_info .info_item__title:not(:last-child) {
+.cooking_tips_list .info_item__title:not(:last-child), .steak_club_info .info_item__title:not(:last-child) {
   margin-bottom: 0.6rem;
 }
 @media screen and (min-width: 1024px) {

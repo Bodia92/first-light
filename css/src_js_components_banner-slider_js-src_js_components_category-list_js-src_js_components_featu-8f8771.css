@@ -1,0 +1,1490 @@
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./node_modules/swiper/modules/effect-fade/effect-fade.scss ***!
+  \***********************************************************************************************************************************************************************************************************/
+.swiper-fade.swiper-free-mode .swiper-slide {
+  transition-timing-function: ease-out;
+}
+.swiper-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+.swiper-fade .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+.swiper-fade .swiper-slide-active, .swiper-fade .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/universal/members-slider.scss ***!
+  \****************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.members_slider {
+  width: 100%;
+  background-color: #fcf5ec;
+}
+.members_slider .swiper-wrapper {
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.members_slider__slide.swiper-slide-active {
+  pointer-events: initial;
+}
+@media screen and (min-width: 768px) {
+  .members_slider__slide {
+    display: flex !important;
+    flex-shrink: 0;
+    height: unset !important;
+    pointer-events: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+  }
+}
+@media screen and (max-width: 767px) {
+  .members_slider__slide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+  }
+}
+
+.members_slider__media {
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .members_slider__media {
+    flex-shrink: 0;
+    width: clamp(1px, 44.2%, 48rem);
+    min-height: 43.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .members_slider__media {
+    width: 100%;
+    height: 0;
+    padding-bottom: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .memberships_tabs .members_slider__media {
+    width: 41.6rem;
+    min-height: 37.5rem;
+  }
+}
+.members_slider__video_trigger {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .members_slider__video_trigger {
+    width: 12rem;
+    height: 12rem;
+    margin: -6rem 0 0 -6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .members_slider__video_trigger {
+    width: 8rem;
+    height: 8rem;
+    margin: -4rem 0 0 -4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .members_slider__video_wrap,
+.members_slider__img_wrap {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .members_slider__video_wrap,
+.members_slider__img_wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
+
+.members_slider__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.members_slider__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+@media screen and (min-width: 1024px) {
+  .memberships_tabs .members_slider__content {
+    padding: 4.6rem 6.6% 3.2rem 5.7%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .memberships_tabs .members_slider__content {
+    padding: 2.4rem 2.4rem 3.2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .members_slider__content {
+    padding: 6.3rem 4.5% 6.5rem 5.7%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .members_slider__content {
+    padding: 2.6rem 2.4rem 2.8rem;
+  }
+}
+
+.members_slider__subtitle {
+  font-weight: 500;
+  letter-spacing: 0.11em;
+  color: #868686;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+  color: #bb753a;
+}
+@media screen and (min-width: 1024px) {
+  .members_slider__subtitle {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .members_slider__subtitle {
+    font-size: 1.4rem;
+  }
+  .members_slider .members_slider__subtitle {
+    font-size: 1.2rem;
+  }
+  .memberships_tabs .members_slider__subtitle {
+    letter-spacing: 0.078em;
+  }
+}
+
+.members_slider__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  .members_slider__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .members_slider__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .members_slider__title:not(:last-child) {
+    margin-bottom: 1.4rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .members_slider__title {
+    letter-spacing: -0.03em;
+  }
+  .members_slider__title:not(:last-child) {
+    margin-bottom: 0.6rem;
+  }
+}
+
+.members_slider__descr {
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .members_slider__descr {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .members_slider__descr {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .members_slider__descr {
+    line-height: 1.47;
+    letter-spacing: 0.002em;
+  }
+  .members_slider__descr:not(:last-child) {
+    margin-bottom: 3.8rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .members_slider__descr {
+    line-height: 1.44;
+    letter-spacing: -0.016em;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .members_slider__descr:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.members_slider__controls {
+  margin-top: auto;
+}
+
+.members_slider__controls_btn:not(:first-child) {
+  margin-left: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .members_slider__pagination:not(:first-child) {
+    margin-left: 2.4rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .members_slider__pagination:not(:first-child) {
+    margin-left: 1.4rem;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/universal/members-slider-section.scss ***!
+  \************************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .section + .section.members_slider_section {
+    padding-top: 1.2rem;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/universal/popup.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  align-content: stretch;
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 0;
+  pointer-events: none;
+  background-color: rgba(7, 6, 6, 0.8);
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.popup.popup--open_state {
+  z-index: 101;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.popup_in {
+  position: relative;
+  width: 122.4rem;
+  max-width: 100%;
+  margin: auto;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup_content {
+    padding: 6.4rem 8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .popup_content {
+    padding: 6.4rem var(--gl-indent) 3.6rem;
+  }
+}
+
+.popup_close {
+  position: absolute;
+  z-index: 5;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+@media screen and (min-width: 1024px) {
+  .popup_close {
+    top: 3rem;
+    right: 3.3rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .popup_close {
+    top: 2rem;
+    right: 2rem;
+  }
+}
+
+.popup_close__in {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.popup_close__in::before, .popup_close__in::after {
+  position: absolute;
+  top: 1.2rem;
+  left: -0.5rem;
+  height: 2px;
+  width: 3.4rem;
+  content: "";
+  background-color: #bb753a;
+  transition: background 0.3s ease;
+  will-change: background;
+}
+.popup_close:hover .popup_close__in::before, .popup_close:hover .popup_close__in::after {
+  background-color: #000;
+}
+.popup_close__in::before {
+  transform: rotate(45deg);
+}
+.popup_close__in::after {
+  transform: rotate(-45deg);
+}
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/popup-email.scss ***!
+  \***************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.popup_email {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1023px) {
+  .popup_email {
+    padding: 6.4rem var(--gl-indent) 3.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popup_email__column:nth-child(2n+1) {
+    width: 42.5%;
+  }
+  .popup_email__column:nth-child(2n+2) {
+    width: 57.5%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .popup_email__column {
+    width: 100%;
+  }
+  .popup_email__column:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+  .popup_email__column:nth-child(2n+1) {
+    margin-left: calc(var(--gl-indent) * -1);
+    margin-right: calc(var(--gl-indent) * -1);
+    width: calc(100% + var(--gl-indent) * 2);
+  }
+}
+
+.popup_email__bg {
+  position: relative;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .popup_email__bg {
+    height: 100%;
+    min-height: 65.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .popup_email__bg {
+    padding-bottom: 105%;
+  }
+}
+
+.popup_email__pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.popup_email__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup_email__content {
+    padding: 5.4rem 7.6rem 6.2rem 2.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popup_email__wrapper {
+    max-width: 49.6rem;
+    margin: 0 auto;
+  }
+}
+
+.popup_email__title {
+  color: #000;
+  line-height: 1.06;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+.popup_email__title:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+@media screen and (min-width: 1024px) {
+  .popup_email__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .popup_email__title {
+    font-size: 2.2rem;
+  }
+}
+
+.popup_email__text {
+  line-height: 1.5;
+  color: #000;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+.popup_email__text:not(:last-child) {
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 1024px) {
+  .popup_email__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .popup_email__text {
+    font-size: 1.4rem;
+  }
+}
+
+.popup_email__fields:not(:last-child) {
+  margin-bottom: 4.2rem;
+}
+
+.popup_email__field:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/popup-offer.scss ***!
+  \***************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup_offer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5.6rem -2rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popup_offer__column {
+    padding: 0 5.6rem 2rem 0;
+  }
+  .popup_offer__column:nth-child(2n+1) {
+    width: 48.5%;
+  }
+  .popup_offer__column:nth-child(2n+2) {
+    width: 51.5%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .popup_offer__column {
+    width: 100%;
+  }
+  .popup_offer__column:nth-child(2n+1) {
+    margin-left: calc(var(--gl-indent) * -1);
+    width: calc(100% + var(--gl-indent) * 2);
+  }
+  .popup_offer__column:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+}
+
+.popup_offer__image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.popup_offer__pic {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-bottom: 105%;
+}
+
+.popup_offer__img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup_offer__content {
+    padding-top: 3rem;
+    max-width: 49.6rem;
+  }
+}
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/products.scss ***!
+  \************************************************************************************************************************************************************************************/
+.products__item:not(:last-child) {
+  padding-bottom: 5.4rem;
+}
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/category-list-link.scss ***!
+  \**********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.category_list_link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.category_list_link::before, .category_list_link::after {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+}
+@media screen and (min-width: 768px) {
+  .category_list_link::before {
+    background: linear-gradient(5deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0.6;
+  }
+}
+@media screen and (max-width: 767px) {
+  .category_list_link::before {
+    background: linear-gradient(3deg, #000 0%, rgba(0, 0, 0, 0.05) 100%);
+    opacity: 0.5;
+  }
+}
+.category_list_link::after {
+  opacity: 0;
+  background: linear-gradient(29deg, #bb753a 0%, rgba(0, 0, 0, 0) 100%);
+}
+.category_list_link:hover, .category_list_link:focus {
+  text-decoration: none;
+}
+.category_list_link:hover::before, .category_list_link:focus::before {
+  opacity: 0;
+}
+.category_list_link:hover::after, .category_list_link:focus::after {
+  opacity: 0.8;
+}
+
+.category_list_link_img {
+  z-index: 1;
+  background-color: #000;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.category_list_link_img__in {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  will-change: transform;
+}
+.category_list_link:hover .category_list_link_img__in, .category_list_link:focus .category_list_link_img__in {
+  transform: scale(1.1);
+}
+
+.category_list_link__content {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 1024px) and (min-width: 768px) {
+  .category_list_link--size_mod_2 .category_list_link__content {
+    padding: 3.4rem 4.4rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 767px) {
+  .category_list_link--size_mod_2 .category_list_link__content {
+    padding: 2.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .category_list_link__content:not(.category_list_link--size_mod_2 .category_list_link__content) {
+    padding: 2.8rem 3.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_list_link__content {
+    padding: 1.5rem 1.9rem;
+  }
+}
+
+.category_list_link__title {
+  color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  h2.category_list_link__title {
+    letter-spacing: -0.02em;
+    line-height: 1;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+  h2.category_list_link__title {
+    font-size: 4.8rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+  h2.category_list_link__title {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h3.category_list_link__title {
+    line-height: 1.06;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+  h3.category_list_link__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+  h3.category_list_link__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_list_link__title {
+    font-size: 2.6rem;
+    font-weight: 500;
+    letter-spacing: -0.024em;
+  }
+  .category_list_link__title br {
+    display: none;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/category-list.scss ***!
+  \*****************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.category_list__info {
+  max-width: 110rem;
+}
+@media screen and (min-width: 1024px) {
+  .category_list__info:not(:last-child) {
+    margin-bottom: 6.7rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .category_list__info:not(:last-child) {
+    margin-bottom: 5rem;
+  }
+}
+
+.category_list__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+@media screen and (min-width: 768px) {
+  .category_list__row {
+    margin: 0 -2.4rem -2.4rem 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .category_list__column {
+    flex-grow: 1;
+    max-width: 50%;
+    padding: 0 2.4rem 2.4rem 0;
+  }
+  .category_list__column:not(.category_list__column.category_list_link--size_mod_2, .category_list__column.category_list_link--size_mod_3) {
+    width: 25%;
+    min-height: 16vw;
+  }
+  .category_list__column.category_list_link--size_mod_2 {
+    width: 50%;
+    min-height: 19vw;
+  }
+  .category_list__column.category_list_link--size_mod_3 {
+    width: 33.333%;
+    min-height: 16vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .category_list__column {
+    width: 100%;
+    min-height: 23.6vw;
+  }
+  .category_list__column:not(:last-child) {
+    margin-bottom: 1.2rem;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/recipes-card-mixin.scss ***!
+  \**********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.recipes_card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+}
+.recipes_card:focus, .recipes_card:hover {
+  text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+  .featured_recipe__slider .recipes_card:not(:first-child) {
+    display: none;
+  }
+}
+
+.recipes_card__picture {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .featured_recipe .recipes_card__picture {
+    padding-top: 44.4%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .featured_recipe .recipes_card__picture {
+    padding-top: 53.5%;
+    margin-bottom: 1.6rem;
+  }
+}
+.featured_recipies .recipes_card__picture {
+  padding-top: 52%;
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__picture {
+    margin-bottom: 3rem;
+    padding-top: 71.4%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .recipes_card__picture {
+    margin-bottom: 1.4rem;
+    padding-top: 82.6%;
+  }
+}
+
+.recipes_card__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.recipes_card:hover .recipes_card__img {
+  transform: scale(1.1);
+}
+
+.recipes_card__content_head:not(.featured_recipe .recipes_card__content_head) {
+  flex: auto;
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__content_head:not(:last-child) {
+    margin-bottom: 1.4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .recipes_card__content_head:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .featured_recipe .recipes_card__content_head:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .featured_recipe .recipes_card__content_head:not(:last-child) {
+    margin-bottom: 0.9rem;
+  }
+}
+
+.recipes_card__subtitle {
+  font-weight: 500;
+  letter-spacing: 0.11em;
+  color: #868686;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__subtitle {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .recipes_card__subtitle {
+    font-size: 1.4rem;
+  }
+  .members_slider .recipes_card__subtitle {
+    font-size: 1.2rem;
+  }
+  .memberships_tabs .recipes_card__subtitle {
+    letter-spacing: 0.078em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__subtitle:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .recipes_card__subtitle:not(:last-child) {
+    margin-bottom: 0.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .featured_recipe .recipes_card__subtitle:not(:last-child) {
+    margin-bottom: 0.8rem;
+  }
+}
+
+.recipes_card__title {
+  font-weight: 500;
+  transition: color 0.3s ease;
+  will-change: color;
+  color: #000;
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .recipes_card__title {
+    font-size: 1.8rem;
+  }
+}
+.recipes_card:hover .recipes_card__title, .recipes_card:focus .recipes_card__title {
+  color: #bb753a;
+}
+@media screen and (min-width: 1024px) {
+  .featured_recipe .recipes_card__title {
+    letter-spacing: -0.016em;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .featured_recipe .recipes_card__title {
+    line-height: 1.14;
+    letter-spacing: -0.025em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__title {
+    letter-spacing: -0.01em;
+    line-height: 1.14;
+  }
+}
+
+.recipes_card__description {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__description {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .recipes_card__description {
+    font-size: 1.4rem;
+  }
+}
+.recipes_card__description:not(:last-child) {
+  margin-bottom: 1.8rem;
+}
+@media screen and (max-width: 767px) {
+  .recipes_card__description {
+    display: none;
+  }
+}
+
+.recipes_card__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+  color: #bb753a;
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__list {
+    margin: 0 -3.2rem -2rem 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .recipes_card__list {
+    margin: 0 -1.6rem -1.6rem 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .featured_recipe .recipes_card__list {
+    margin: 0 -2.5rem -1.6rem 0;
+  }
+}
+
+.recipes_card__list_item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__list_item {
+    padding: 0 3.2rem 2rem 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .recipes_card__list_item {
+    padding: 0 1.6rem 1.6rem 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .featured_recipe .recipes_card__list_item {
+    padding: 0 2.5rem 1.6rem 0;
+  }
+}
+
+.recipes_card__list_icon {
+  margin-right: 0.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__list_icon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .recipes_card__list_icon {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+}
+.featured_recipe .recipes_card__list_icon {
+  width: 1.9rem;
+  height: 2.3rem;
+  margin-right: 0.8rem;
+}
+
+.recipes_card__list_text {
+  font-weight: 400;
+  line-height: 1.71;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1024px) {
+  .recipes_card__list_text {
+    font-size: 1.4rem;
+    letter-spacing: 0.11em;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .recipes_card__list_text {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .featured_recipe .recipes_card__list_text {
+    font-size: 1.3rem;
+    letter-spacing: 0.06em;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/featured-recipies.scss ***!
+  \*********************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .featured_recipies {
+    background-color: #f5f5f5;
+  }
+}
+
+.featured_recipies__wrap {
+  position: relative;
+}
+
+.featured_recipies__button {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+}
+.featured_recipies__button.featured_recipies__button--prev_mod {
+  left: 0;
+}
+@media screen and (min-width: 1024px) {
+  .featured_recipies__button.featured_recipies__button--prev_mod {
+    margin-left: -2.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .featured_recipies__button.featured_recipies__button--prev_mod {
+    margin-left: -2rem;
+  }
+}
+.featured_recipies__button.featured_recipies__button--next_mod {
+  right: 0;
+}
+@media screen and (min-width: 1024px) {
+  .featured_recipies__button.featured_recipies__button--next_mod {
+    margin-right: -2.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .featured_recipies__button.featured_recipies__button--next_mod {
+    margin-right: -2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .featured_recipies__button {
+    margin-top: 9.8%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .featured_recipies__button {
+    margin-top: 19.4%;
+  }
+}
+
+.featured_recipies__slider.swiper {
+  margin-right: -2.4rem;
+}
+
+.featured_recipies__item {
+  padding-right: 2.4rem;
+}
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/promo.scss ***!
+  \*********************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .promo {
+    padding-top: 10rem;
+  }
+}
+
+.promo__body {
+  background-color: #fcf5ec;
+}
+
+.promo__row {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .promo__column:nth-child(1) {
+    width: calc(100% - 35.7rem);
+  }
+  .promo__column:nth-child(2) {
+    position: relative;
+    width: 35.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .promo__column {
+    display: flex;
+    width: 100%;
+  }
+  .promo__column:nth-child(2) {
+    order: -1;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .promo__content {
+    padding: 3.4rem 4.8rem 4.6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .promo__content {
+    padding: 2.4rem 2.4rem 2.8rem;
+  }
+}
+
+.promo__title {
+  font-weight: 500;
+}
+.promo__title:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+@media screen and (min-width: 1024px) {
+  .promo__title {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .promo__title {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .promo__title {
+    letter-spacing: -0.014em;
+  }
+}
+@media screen and (max-width: 767px) {
+  .promo__title {
+    letter-spacing: -0.026em;
+  }
+}
+
+.promo__text {
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .promo__text:not(:last-child) {
+    margin-bottom: 1.8rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .promo__text:not(:last-child) {
+    margin-bottom: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .promo__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .promo__text {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .promo__text {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 767px) {
+  .promo__text {
+    line-height: 1.42;
+    letter-spacing: -0.016em;
+  }
+}
+
+.promo_img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .promo_img {
+    min-height: 24rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .promo_img {
+    padding-bottom: 55.8%;
+  }
+}
+
+.promo_img__in {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 479px) {
+  .promo__button {
+    width: 100%;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/onboarding-form.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.onboarding_form {
+  color: #000;
+}
+
+.onboarding_form__info {
+  max-width: 112rem;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .onboarding_form__info:not(:last-child) {
+    margin-bottom: 5.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__info:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.onboarding_form__body {
+  max-width: 60rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.onboarding_form__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  .onboarding_form__title:not(:last-child) {
+    margin-bottom: 4.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__title:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .onboarding_form__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .onboarding_form__title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .onboarding_form__form:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__form:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .onboarding_form__items:not(:last-child) {
+    margin-bottom: 4.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__items:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .onboarding_form__item:not(:last-child) {
+    margin-bottom: 4.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__item:not(:last-child) {
+    margin-bottom: 2.4rem;
+  }
+}
+
+.onboarding_form__button {
+  width: 100%;
+}
+
+.onboarding_form__alt {
+  text-align: center;
+  line-height: 1.6;
+}
+.onboarding_form__alt a {
+  color: #bb753a;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.onboarding_form__alt a:hover, .onboarding_form__alt a:focus {
+  text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+  .onboarding_form__alt {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .onboarding_form__alt {
+    font-size: 1.4rem;
+  }
+}
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/waiting-form.scss ***!
+  \****************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.waiting_form {
+  background-color: #f0f2f4;
+}
+@media screen and (min-width: 1024px) {
+  .waiting_form {
+    padding: 4.8rem 8rem 6.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .waiting_form {
+    padding: 2.4rem 2rem 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .waiting_form__wrap:not(:last-child) {
+    margin-bottom: 2.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .waiting_form__wrap:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .waiting_form__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5.5rem -2.6rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .waiting_form__item {
+    padding: 0 5.5rem 2.6rem 0;
+  }
+  .waiting_form__item:not(.waiting_form__item--full_mod) {
+    width: 50%;
+  }
+  .waiting_form__item.waiting_form__item--full_mod {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .waiting_form__item {
+    width: 100%;
+  }
+  .waiting_form__item:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .waiting_form__button {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=src_js_components_banner-slider_js-src_js_components_category-list_js-src_js_components_featu-8f8771.css.map*/
