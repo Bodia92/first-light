@@ -1,116 +1,3 @@
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/step-form-head-mixin.scss ***!
-  \************************************************************************************************************************************************************************************************/
-.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
-  opacity: 1;
-}
-
-.step_form_head {
-  position: relative;
-}
-@media screen and (min-width: 1024px) {
-  .step_form_head:not(:last-child) {
-    margin-bottom: 3.2rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .step_form_head:not(:last-child) {
-    margin-bottom: 2.2rem;
-  }
-}
-.step_form_head.step_form_head--centered_mod {
-  text-align: center;
-}
-@media screen and (min-width: 1024px) {
-  .step_form_head {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-end;
-  }
-}
-
-.step_form_head__wrap {
-  flex: auto;
-}
-.step_form_head__wrap:not(:last-child) {
-  margin-bottom: 1.6rem;
-}
-
-.step_form_head__title {
-  font-weight: 500;
-  letter-spacing: -0.02em;
-}
-@media screen and (min-width: 1024px) {
-  .step_form_head__title {
-    font-size: 3.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .step_form_head__title {
-    font-size: 2.2rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .step_form_head__title:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .step_form_head__title:not(:last-child) {
-    margin-bottom: 0.6rem;
-  }
-}
-.step_form_head--centered_mod .step_form_head__title {
-  margin: 0 auto 1rem;
-}
-@media screen and (min-width: 1024px) {
-  .step_form_head__title {
-    max-width: 95rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .step_form_head__title {
-    letter-spacing: -0.03em;
-  }
-}
-
-.step_form_head__text {
-  font-weight: 400;
-  max-width: 95rem;
-}
-@media screen and (min-width: 1024px) {
-  .step_form_head__text {
-    font-size: 1.6rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .step_form_head__text {
-    font-size: 1.4rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .step_form_head__text {
-    line-height: 1.5;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .step_form_head__text {
-    line-height: 1.45;
-    letter-spacing: -0.015em;
-  }
-}
-.step_form_head--centered_mod .step_form_head__text {
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 479px) {
-  .step_form_head__button .btn_1 {
-    width: 100%;
-  }
-}
 /*!******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/step-form-list.scss ***!
   \******************************************************************************************************************************************************************************************/
@@ -263,6 +150,119 @@
 @media screen and (max-width: 1023px) {
   .step_form__body {
     display: none;
+  }
+}
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/step-form-head-mixin.scss ***!
+  \************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.step_form_head {
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head:not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+}
+.step_form_head.step_form_head--centered_mod {
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-end;
+  }
+}
+
+.step_form_head__wrap {
+  flex: auto;
+}
+.step_form_head__wrap:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.step_form_head__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title:not(:last-child) {
+    margin-bottom: 0.6rem;
+  }
+}
+.step_form_head--centered_mod .step_form_head__title {
+  margin: 0 auto 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__title {
+    max-width: 95rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__title {
+    letter-spacing: -0.03em;
+  }
+}
+
+.step_form_head__text {
+  font-weight: 400;
+  max-width: 95rem;
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__text {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step_form_head__text {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .step_form_head__text {
+    line-height: 1.45;
+    letter-spacing: -0.015em;
+  }
+}
+.step_form_head--centered_mod .step_form_head__text {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 479px) {
+  .step_form_head__button .btn_1 {
+    width: 100%;
   }
 }
 /*!**********************************************************************************************************************************************************************************************!*\

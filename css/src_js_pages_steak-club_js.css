@@ -1,252 +1,311 @@
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/steak-club-info.scss ***!
-  \*******************************************************************************************************************************************************************************************/
-.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
-  opacity: 1;
-}
-
-.steak_club_info__body {
-  max-width: 110rem;
-}
-@media screen and (min-width: 768px) {
-  .steak_club_info__body:not(:last-child) {
-    margin-bottom: 5.8rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  .steak_club_info__body:not(:last-child) {
-    margin-bottom: 3.4rem;
-  }
-}
-
-.steak_club_info__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-@media screen and (min-width: 768px) {
-  .steak_club_info__inner_list:not(:last-child) {
-    margin-bottom: 5.8rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  .steak_club_info__inner_list:not(:last-child) {
-    margin-bottom: 3.6rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .steak_club_info__list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
-    margin: 0 -2.4rem -3rem 0;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .steak_club_info__item {
-    width: 25%;
-  }
-}
-@media (max-width: 1023px) and (min-width: 768px) {
-  .steak_club_info__item {
-    width: 50%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .steak_club_info__item {
-    padding: 0 4.2rem 3rem 0;
-  }
-}
-@media screen and (max-width: 767px) {
-  .steak_club_info__item {
-    width: 100%;
-  }
-  .steak_club_info__item:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-}
-
-.steak_club_info__btn:not(:last-child) {
-  margin-bottom: 1.6rem;
-}
-
-.steak_club_info__account {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: flex-start;
-  align-items: center;
-}
-
-.steak_club_info__account_text:not(:last-child),
-.steak_club_info__account_link:not(:last-child) {
-  margin-right: 3px;
-}
-@media screen and (min-width: 768px) {
-  .steak_club_info__account_text,
-.steak_club_info__account_link {
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
-}
-@media screen and (max-width: 767px) {
-  .steak_club_info__account_text,
-.steak_club_info__account_link {
-    font-size: 1.4rem;
-    line-height: 1.72;
-  }
-}
-
-.steak_club_info__account_link {
-  font-weight: 500;
-  color: #bb753a;
-  color: all 0.3s;
-  text-decoration: underline;
-}
-.steak_club_info__account_link:hover, .steak_club_info__account_link:focus {
-  text-decoration: none;
-  color: #ce9c53;
-}
 /*!*************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/info-item.scss ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/banner-v1.scss ***!
   \*************************************************************************************************************************************************************************************/
 .form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
   opacity: 1;
 }
 
-@media screen and (max-width: 767px) {
-  .cooking_info_list .info_item, .coocking_tips_list .info_item, .steak_club_info .info_item {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
+.banner_v1_bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-@media screen and (min-width: 768px) {
-  .info_item__img:not(:last-child) {
-    margin-bottom: 2.2rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .cooking_info_list .info_item__img {
-    width: 14rem;
-    height: 14rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .steak_club_info .info_item__img, .coocking_tips_list .info_item__img {
-    width: 13.2rem;
-    height: 13.2rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  .steak_club_info .info_item__img:not(:last-child), .coocking_tips_list .info_item__img:not(:last-child) {
-    margin-right: 2.2rem;
-  }
-}
-@media (max-width: 1023px) and (min-width: 768px) {
-  .info_item__img {
-    width: 9rem;
-    height: 9rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  .info_item__img {
-    flex-shrink: 0;
-    width: 6.2rem;
-    height: 6.2rem;
-  }
-}
-
-.info_item__img_in {
+.banner_v1_bg__in {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.info_item__content {
-  padding-left: 1.4rem;
+.banner_v1__wrap {
+  position: relative;
+  background-color: #fff;
 }
-.coocking_tips_list .info_item__content {
-  padding-left: 0.8rem;
-}
-@media screen and (min-width: 768px) {
-  .steak_club_info .info_item__content {
-    padding-left: 0.6rem;
+@media screen and (min-width: 1024px) {
+  .banner_v1__wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: stretch;
+    padding: 4.8rem 6.4rem 6.6rem;
   }
 }
-@media screen and (max-width: 767px) {
-  .steak_club_info .info_item__content {
-    padding-left: 0;
-    padding-top: 0.4rem;
+@media screen and (max-width: 1023px) {
+  .banner_v1__wrap {
+    padding: 2rem 2.4rem 3.4rem;
   }
 }
 
-.info_item__title {
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  line-height: 1.14;
+.banner_v1__col {
+  position: relative;
 }
 @media screen and (min-width: 1024px) {
-  .info_item__title {
+  .banner_v1__col {
+    flex-shrink: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1__col:nth-child(2n-1) {
+    width: 40%;
+    padding-top: 0.6rem;
+    padding-right: 3rem;
+  }
+  .banner_v1__col:nth-child(2n-1)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #f2e4d1;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1__col:nth-child(2n-1) {
+    padding-bottom: 3.4rem;
+  }
+  .banner_v1__col:nth-child(2n-1):not(:last-child) {
+    margin-bottom: 2.2rem;
+  }
+  .banner_v1__col:nth-child(2n-1)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #f2e4d1;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1__col:nth-child(2n-2) {
+    width: 60%;
+    padding-left: 5.8rem;
+  }
+}
+
+.banner_v1__title {
+  font-weight: 500;
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1__title {
+    font-size: 4.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1__title {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1__title {
+    letter-spacing: -0.018em;
+    line-height: 1;
+  }
+  .banner_v1__title:not(:last-child) {
+    margin-bottom: 2.4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1__title {
+    letter-spacing: -0.026em;
+    line-height: 1.08;
+  }
+  .banner_v1__title:not(:last-child) {
+    margin-bottom: 1.2rem;
+  }
+}
+
+.banner_v1__text {
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1__text {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1__text {
+    max-width: 38.2rem;
+    line-height: 1.5;
+  }
+  .banner_v1__text:not(:last-child) {
+    margin-bottom: 2.9rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1__text {
+    letter-spacing: -0.018em;
+    line-height: 1.42;
+  }
+  .banner_v1__text:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.banner_v1__links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: stretch;
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1__links {
+    margin: 0 -2rem -2rem 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1__links {
+    margin: 0 -1.4rem -1.4rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner_v1__link {
+    padding: 0 2rem 2rem 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1__link {
+    padding: 0 1.4rem 1.4rem 0;
+  }
+}
+
+.banner_v1_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: stretch;
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1_list {
+    margin: 0 -4rem -3.4rem 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1_list {
+    margin: 0 -2rem -1.4rem 0;
+  }
+}
+
+.banner_v1_list__item {
+  flex-shrink: 0;
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1_list__item {
+    padding: 0 4rem 3.4rem 0;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1_list__item {
+    padding: 0 2rem 1.4rem 0;
+  }
+}
+@media screen and (min-width: 375px) {
+  .banner_v1_list__item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 374px) {
+  .banner_v1_list__item {
+    width: 100%;
+  }
+}
+
+.banner_v1_item__img {
+  width: 8.8rem;
+  height: 8.8rem;
+}
+.banner_v1_item__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1_item__img {
+    width: 8.8rem;
+    height: 8.8rem;
+  }
+  .banner_v1_item__img:not(:last-child) {
+    margin-bottom: 1.4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1_item__img {
+    width: 7.2rem;
+    height: 7.2rem;
+  }
+  .banner_v1_item__img:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+.banner_v1_item__title {
+  font-weight: 500;
+  line-height: 1.15;
+}
+@media screen and (min-width: 1024px) {
+  .banner_v1_item__title {
     font-size: 2.8rem;
   }
 }
 @media screen and (max-width: 1023px) {
-  .info_item__title {
+  .banner_v1_item__title {
     font-size: 1.8rem;
   }
 }
-@media screen and (min-width: 768px) {
-  .info_item__title:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  .info_item__title:not(:last-child) {
-    margin-bottom: 0.6rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  .info_item__title:not(.steak_club_info .info_item__title) {
-    min-height: 2.7em;
-  }
-}
-.coocking_tips_list .info_item__title:not(:last-child), .steak_club_info .info_item__title:not(:last-child) {
-  margin-bottom: 0.6rem;
+.banner_v1_item__title:not(:last-child) {
+  margin-bottom: 0.8rem;
 }
 @media screen and (min-width: 1024px) {
-  .info_item__title {
-    margin-right: 2.2rem;
+  .banner_v1_item__title {
+    letter-spacing: -0.016em;
   }
-  .info_item__title:not(.steak_club_info .info_item__title) {
-    min-height: 2em;
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1_item__title {
+    letter-spacing: -0.022em;
   }
 }
 
-.info_item__description {
-  font-weight: 400;
+.banner_v1_item__text {
+  line-height: 1.5;
 }
-@media screen and (min-width: 768px) {
-  .info_item__description {
-    font-size: 1.5rem;
-    letter-spacing: normal;
-    line-height: 1.47;
+@media screen and (min-width: 1024px) {
+  .banner_v1_item__text {
+    font-weight: 400;
   }
 }
-@media screen and (max-width: 767px) {
-  .info_item__description {
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+  .banner_v1_item__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+  .banner_v1_item__text {
     font-size: 1.4rem;
-    line-height: 1.42;
-    letter-spacing: -0.014em;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v1_item__text {
+    font-size: 1.2rem;
+    line-height: 1.33;
+    letter-spacing: -0.016em;
   }
 }
 /*!***********************************************************************************************************************************************************************************************************!*\
@@ -264,6 +323,80 @@
 }
 .swiper-fade .swiper-slide-active, .swiper-fade .swiper-slide-active .swiper-slide-active {
   pointer-events: auto;
+}
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/universal/section-head.scss ***!
+  \**************************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
+.section_head {
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .section_head:not(:last-child) {
+    margin-bottom: 3.4rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_head:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_head {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_head {
+    align-items: flex-end;
+  }
+}
+
+h2.section_head__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  h2.section_head__title {
+    font-size: 4.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  h2.section_head__title {
+    font-size: 2.6rem;
+  }
+}
+
+h3.section_head__title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 1024px) {
+  h3.section_head__title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  h3.section_head__title {
+    font-size: 2.2rem;
+  }
+}
+
+.section_head__title:not(:last-child) {
+  margin-right: 1.2rem;
+}
+
+.section_head__right {
+  margin-left: auto;
+}
+@media screen and (max-width: 767px) {
+  .section_head__right {
+    padding-bottom: 4px;
+  }
 }
 /*!****************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/universal/members-slider.scss ***!
@@ -524,1056 +657,209 @@
     padding-top: 1.2rem;
   }
 }
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/memberships-tabs.scss ***!
-  \********************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/universal/slider-controls.scss ***!
+  \*****************************************************************************************************************************************************************************************************/
 .form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
   opacity: 1;
 }
 
-.memberships_tabs {
-  background-color: #f0f2f4;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs {
-    padding-bottom: 10rem;
-  }
-}
-
-.memberships_tabs__head {
-  max-width: 80.6rem;
-  width: 100%;
-  margin: 0 auto;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__head:not(:last-child) {
-    margin-bottom: 4rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__head:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-}
-
-.memberships_tabs__title {
-  font-weight: 500;
-  text-align: center;
-  letter-spacing: -0.018em;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__title {
-    font-size: 4.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__title {
-    font-size: 2.6rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__title {
-    line-height: 1;
-  }
-  .memberships_tabs__title:not(:last-child) {
-    margin-bottom: 2.2rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__title {
-    line-height: 1.05;
-  }
-  .memberships_tabs__title:not(:last-child) {
-    margin-bottom: 0.8rem;
-  }
-}
-
-.memberships_tabs__text {
-  font-weight: 400;
-  font-weight: 400;
-  text-align: center;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__text {
-    font-size: 1.6rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__text {
-    font-size: 1.4rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__text {
-    line-height: 1.5;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__text {
-    line-height: 1.45;
-    letter-spacing: -0.016em;
-  }
-}
-
-.memberships_tabs__wrap {
-  position: relative;
-}
-
-.memberships_tabs__button {
-  z-index: 10;
-}
-@media screen and (min-width: 768px) {
-  .memberships_tabs__button {
-    display: none;
-  }
-}
-@media screen and (max-width: 767px) {
-  .memberships_tabs__button {
-    position: absolute;
-    top: min(18.2rem, 50%);
-  }
-}
-.memberships_tabs__button.memberships_tabs__button--prev_mod {
-  left: -2.2rem;
-}
-.memberships_tabs__button.memberships_tabs__button--next_mod {
-  right: -2.2rem;
-}
-
-.memberships_tabs__nav {
-  overflow: visible;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__nav:not(:last-child) {
-    margin-bottom: 3.4rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__nav:not(:last-child) {
-    margin-bottom: 0.6rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  .memberships_tabs__nav {
-    position: relative;
-    margin-right: calc(var(--gl-indent) * -1);
-    margin-left: calc(var(--gl-indent) * -1);
-  }
-  .memberships_tabs__nav:after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: block;
-    width: 4.4rem;
-    height: 100%;
-    background: linear-gradient(270deg, #f0f2f4 0%, rgba(240, 242, 244, 0) 100%);
-    content: "";
-  }
-}
-
-.memberships_tabs__nav_list {
-  text-align: center;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__nav_list {
-    margin: 0 -3.2rem -2rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__nav_list {
-    white-space: nowrap;
-    padding-bottom: 2rem;
-  }
-}
-
-.memberships_tabs__nav_item.memberships_tabs__nav_item {
-  width: auto;
-  align-self: start;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__nav_item.memberships_tabs__nav_item {
-    padding: 0 3.2rem 2rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__nav_item.memberships_tabs__nav_item {
-    flex-shrink: 0;
-    padding: 0 1.1rem;
-  }
-}
-
-.memberships_tabs__nav_link {
-  position: relative;
-  font-weight: 400;
-  letter-spacing: 0.11em;
-  line-height: 1.33;
-  color: #868686;
-  transition: color 0.3s ease;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__nav_link {
-    font-size: 1.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__nav_link {
-    font-size: 1.4rem;
-  }
-}
-.memberships_tabs__nav_link:after {
-  position: absolute;
-  left: -1px;
-  width: 100%;
-  background-color: #bb753a;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  content: "";
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__nav_link:after {
-    bottom: -0.4rem;
-    height: 2px;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__nav_link:after {
-    bottom: -0.3rem;
-    height: 1px;
-  }
-}
-.memberships_tabs__nav_link:focus, .memberships_tabs__nav_link:hover {
-  color: #535353;
-  text-decoration: none;
-}
-.swiper-slide-thumb-active .memberships_tabs__nav_link {
-  color: #bb753a;
-  font-weight: 500;
-}
-.swiper-slide-thumb-active .memberships_tabs__nav_link:after {
-  opacity: 1;
-}
-
-.memberships_tabs__content {
-  background-color: #fff;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content {
-    padding: 4.6rem 6.4rem 7.4rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content {
-    padding: 2.4rem 2.4rem 3.2rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_row:not(:last-child) {
-    margin-bottom: 5.4rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_row:not(:last-child) {
-    margin-bottom: 3rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_body {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_body {
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_column:nth-child(2n-1) {
-    flex-shrink: 0;
-  }
-}
-@media screen and (min-width: 1024px) and (min-width: 1024px) {
-  .memberships_tabs__content_column:nth-child(2n-1) {
-    padding-right: 2rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_column:nth-child(2n-2) {
-    flex-shrink: 0;
-    width: 58.2%;
-    margin-left: auto;
-    padding-top: 2px;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_column:not(:last-child) {
-    margin-bottom: 1.6rem;
-  }
-}
-
-.memberships_tabs__content_title {
-  font-weight: 500;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_title {
-    font-size: 4.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_title {
-    font-size: 2.6rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_title {
-    line-height: 1.43;
-  }
-}
-
-.memberships_tabs__content_info {
-  font-weight: 500;
-  color: #868686;
-  letter-spacing: 0.12em;
-  line-height: 1.33;
-  text-transform: uppercase;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_info {
-    font-size: 1.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_info {
-    font-size: 1.4rem;
-  }
-}
-
-.memberships_tabs__content_heading {
-  font-weight: 500;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_heading {
-    font-size: 2rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_heading {
-    font-size: 1.6rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_heading {
-    line-height: 1.6;
-    letter-spacing: -0.01em;
-  }
-  .memberships_tabs__content_heading:not(:last-child) {
-    margin-bottom: 0.6rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_heading {
-    line-height: 1.25;
-    letter-spacing: -0.023em;
-    max-width: 77%;
-    margin: 0 auto;
-  }
-  .memberships_tabs__content_heading:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-}
-
-.memberships_tabs__content_text {
-  font-weight: 400;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_text {
-    font-size: 1.6rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_text {
-    font-size: 1.4rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_text {
-    max-width: 62rem;
-    line-height: 1.5;
-  }
-  .memberships_tabs__content_text:not(:last-child) {
-    margin-bottom: 1.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_text {
-    line-height: 1.45;
-    max-width: 89%;
-    letter-spacing: -0.012em;
-    margin: 0 auto;
-  }
-  .memberships_tabs__content_text:not(:last-child) {
-    margin-bottom: 1.2rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_list:not(:last-child) {
-    margin-bottom: 2.6rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_list {
-    max-width: 74%;
-    margin: 0 auto;
-  }
-  .memberships_tabs__content_list:not(:last-child) {
-    margin-bottom: 2.2rem;
-  }
-}
-
-.memberships_tabs__content_item {
-  font-weight: 400;
-  position: relative;
-  line-height: 1.25;
-  text-align: left;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_item {
-    font-size: 1.6rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_item {
-    font-size: 1.4rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_item {
-    padding-left: 3.4rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_item {
-    padding-left: 2.6rem;
-    letter-spacing: -0.01em;
-    line-height: 1.2;
-  }
-}
-.memberships_tabs__content_item:not(:last-child) {
-  margin-bottom: 0.8rem;
-}
-.memberships_tabs__content_item::after {
-  position: absolute;
-  top: 50%;
-  content: "";
-  border-radius: 50%;
-  background-color: #000;
-  transform: translateY(-40%);
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_item::after {
-    left: 1rem;
-    width: 0.6rem;
-    height: 0.6rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_item::after {
-    left: 0;
-    width: 4px;
-    height: 4px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_link {
-    width: 100%;
-  }
-}
-
-.memberships_tabs__content_slider_title {
-  font-weight: 500;
-  letter-spacing: -0.016em;
-  line-height: 1.14;
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_slider_title {
-    font-size: 2.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_slider_title {
-    font-size: 1.8rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .memberships_tabs__content_slider_title:not(:last-child) {
-    margin-bottom: 2.6rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .memberships_tabs__content_slider_title {
-    text-align: center;
-  }
-  .memberships_tabs__content_slider_title:not(:last-child) {
-    margin-bottom: 1.8rem;
-  }
-}
-/*!********************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/universal/shipments-included.scss ***!
-  \********************************************************************************************************************************************************************************************************/
-.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
-  opacity: 1;
-}
-
-@media screen and (min-width: 1024px) {
-  .onboarding_2 .shipments_included {
-    display: none;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .onboarding_2 .shipments_included {
-    height: 0;
-    opacity: 0;
-    transform: translateY(-2rem);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-  }
-  .onboarding_2--active_state .shipments_included {
-    height: 100%;
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.shipments_included__title {
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: -0.018em;
-}
-@media screen and (min-width: 1024px) {
-  .shipments_included__title {
-    font-size: 2.8rem;
-  }
-  .shipments_included__title:not(:last-child) {
-    margin-bottom: 2.2rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .shipments_included__title {
-    max-width: 26rem;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 1.8rem;
-  }
-  .shipments_included__title:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-}
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/cooking-tabs.scss ***!
-  \****************************************************************************************************************************************************************************************/
-.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
-  opacity: 1;
-}
-
-.cooking_tabs {
-  background-color: #f0f2f4;
-}
-
-.cooking_tabs_head {
-  max-width: 80.6rem;
-  width: 100%;
-  margin: 0 auto;
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs_head:not(:last-child) {
-    margin-bottom: 4rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs_head:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-}
-
-.cooking_tabs_head__title {
-  font-weight: 500;
-  line-height: 1;
-  text-align: center;
-  letter-spacing: -0.018em;
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs_head__title {
-    font-size: 4.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs_head__title {
-    font-size: 2.6rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs_head__title:not(:last-child) {
-    margin-bottom: 2.2rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs_head__title:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-}
-
-.cooking_tabs_head__description {
-  font-weight: 400;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs_head__description {
-    font-size: 1.6rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs_head__description {
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cooking_tabs__mask {
-    position: relative;
-    margin-right: calc(var(--gl-indent) * -1);
-    margin-left: calc(var(--gl-indent) * -1);
-  }
-  .cooking_tabs__mask:after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: block;
-    width: 4.4rem;
-    height: 100%;
-    background: linear-gradient(270deg, #f0f2f4 0%, rgba(240, 242, 244, 0) 100%);
-    content: "";
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cooking_tabs__nav.cooking_tabs__nav {
-    margin-bottom: 3.4rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs__nav.cooking_tabs__nav {
-    padding-bottom: 1.6rem;
-    margin-bottom: 1rem;
-  }
-}
-
-.cooking_tabs__nav_list.cooking_tabs__nav_list {
-  overflow: visible;
-  text-align: center;
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs__nav_list.cooking_tabs__nav_list {
-    margin: 0 -2.5rem -2rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs__nav_list.cooking_tabs__nav_list {
-    margin: 0 -1.2rem 0 0;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs__nav_list.cooking_tabs__nav_list .swiper-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-  }
-}
-
-.cooking_tabs__nav_item.cooking_tabs__nav_item {
-  width: auto;
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs__nav_item.cooking_tabs__nav_item {
-    padding: 0 2.5rem 2rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs__nav_item.cooking_tabs__nav_item {
-    padding: 0 1.2rem 0;
-  }
-}
-
-.cooking_tabs__nav_link {
-  position: relative;
-  font-weight: 400;
-  letter-spacing: 0.11em;
-  line-height: 1.33;
-  font-family: "Geograph", sans-serif;
-  color: #868686;
-  transition: color 0.3s ease;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-.cooking_tabs__nav_link:after {
-  position: absolute;
-  left: -1px;
-  bottom: -0.3rem;
-  width: 100%;
-  height: 2px;
-  background-color: #bb753a;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  content: "";
-}
-.cooking_tabs__nav_link:focus, .cooking_tabs__nav_link:hover {
-  color: #535353;
-  text-decoration: none;
-}
-.swiper-slide-thumb-active .cooking_tabs__nav_link {
-  color: #bb753a;
-}
-.swiper-slide-thumb-active .cooking_tabs__nav_link:after {
-  opacity: 1;
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs__nav_link {
-    font-size: 1.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs__nav_link {
-    font-size: 1.4rem;
-    white-space: nowrap;
-  }
-}
-
-.cooking_tabs__content.cooking_tabs__content {
-  position: relative;
-  background-color: #fff;
-  overflow: visible;
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs__content.cooking_tabs__content {
-    padding: 3.6rem 5.6rem 5.2rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs__content.cooking_tabs__content {
-    padding: 2.4rem 4.2rem 3.8rem;
-  }
-}
-
-.cooking_tabs__content_in.cooking_tabs__content_in {
-  height: auto;
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs__content_in.cooking_tabs__content_in {
-    width: 100%;
-  }
-}
-
-.cooking_tabs__content_row.cooking_tabs__content_row--title_mod {
-  font-weight: 500;
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs__content_row.cooking_tabs__content_row--title_mod {
-    padding-bottom: 3rem;
-    margin-bottom: 3.6rem;
-    border-bottom: 2px solid #f0f2f4;
-    font-size: 1.8rem;
-    line-height: 1.78;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs__content_row.cooking_tabs__content_row--title_mod {
-    display: none;
-  }
-}
-.cooking_tabs__content_row.cooking_tabs__content_row--descrip_mod {
-  font-weight: 400;
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs__content_row.cooking_tabs__content_row--descrip_mod {
-    font-size: 1.6rem;
-    line-height: 1.5;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tabs__content_row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
-    text-align: center;
-    padding: 0 2.4rem 0 2.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs__content_row {
-    position: relative;
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cooking_tabs__content_col {
-    width: 20%;
-    padding: 0 1rem;
-    line-height: 1.4;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .cooking_tabs__content_col {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: stretch;
-    width: 100%;
-    position: relative;
-  }
-  .cooking_tabs__content_col::after {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    height: 100%;
-    width: 1px;
-    background-color: #f2e4df;
-    content: "";
-  }
-  .cooking_tabs__content_col:not(:last-child) {
-    padding-bottom: 1.5rem;
-  }
-  .cooking_tabs__content_col::before {
-    display: block;
-    flex: 0 0 50%;
-    padding-right: 2rem;
-    margin-right: 2rem;
-    font-weight: 500;
-    content: attr(data-label);
-  }
-}
-
-.cooking_tab__button {
-  z-index: 1;
-  position: absolute;
-  top: 50%;
-  margin-top: -3rem;
-}
-.cooking_tab__button.cooking_tab__button--prev_mod {
-  left: -2.2rem;
-}
-.cooking_tab__button.cooking_tab__button--next_mod {
-  right: -2.2rem;
-}
-@media screen and (min-width: 1024px) {
-  .cooking_tab__button {
-    display: none;
-  }
-}
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./node_modules/swiper/modules/thumbs/thumbs.min.css ***!
-  \****************************************************************************************************************************************************************************************************/
-
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/banner-image.scss ***!
-  \****************************************************************************************************************************************************************************************/
-.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
-  opacity: 1;
-}
-
-.banner_image__wrap {
+.slider_controls {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: stretch;
-}
-@media screen and (min-width: 1024px) {
-  .banner_image__wrap.banner_image__wrap--reverse_mod {
-    flex-direction: row-reverse;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .banner_image__wrap.banner_image__wrap--reverse_mod {
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .banner_image__wrap {
-    flex-direction: column-reverse;
-  }
+  align-content: center;
+  align-items: center;
 }
 
-.banner_image__content {
-  margin: auto 0;
+.slider_controls__pagination {
+  color: #bb753a;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 1024px) {
-  .banner_image__content {
-    width: 49%;
-    padding: 1.7rem 0 1.7rem;
-    flex-shrink: 0;
-  }
-  .banner_image__content:not(.banner_image__wrap--reverse_mod .banner_image__content) {
-    margin-right: 9.2rem;
-  }
-  .banner_image__wrap--reverse_mod .banner_image__content {
-    margin-left: 9.2rem;
+  .slider_controls__pagination {
+    font-size: 2rem;
+    font-weight: 300;
   }
 }
 @media screen and (max-width: 1023px) {
-  .banner_image__wrap--reverse_mod .banner_image__content:not(:last-child) {
-    margin-bottom: 2.5rem;
-  }
-}
-
-.banner_image__title {
-  font-weight: 500;
-  letter-spacing: -0.017em;
-  line-height: 1;
-}
-@media screen and (min-width: 1024px) {
-  .banner_image__title {
-    font-size: 4.8rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .banner_image__title {
-    font-size: 2.6rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .banner_image__title:not(:last-child) {
-    margin-bottom: 2.4rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .banner_image__title:not(:last-child) {
-    margin-bottom: 1.4rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .banner_image__title {
-    letter-spacing: -0.025em;
-  }
-}
-
-.banner_image__text {
-  font-weight: 400;
-}
-@media screen and (min-width: 1024px) {
-  .banner_image__text {
+  .slider_controls__pagination {
     font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .banner_slider .slider_controls__pagination {
+    letter-spacing: -0.02em;
   }
 }
-@media screen and (max-width: 1023px) {
-  .banner_image__text {
-    font-size: 1.4rem;
-  }
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./node_modules/swiper/modules/effect-fade/effect-fade.min.css ***!
+  \**************************************************************************************************************************************************************************************************************/
+.swiper-fade.swiper-free-mode .swiper-slide {
+  transition-timing-function: ease-out;
 }
+
+.swiper-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+
+.swiper-fade .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+
+.swiper-fade .swiper-slide-active, .swiper-fade .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/banner-v2.scss ***!
+  \*************************************************************************************************************************************************************************************/
+.form_radio__element:checked + .form_radio__label::before, .form_radio__element:checked + .form_radio__label::after {
+  opacity: 1;
+}
+
 @media screen and (min-width: 1024px) {
-  .banner_image__text:not(:last-child) {
-    margin-bottom: 3.4rem;
+  .banner_v2 {
+    padding: 16.7rem var(--gl-indent) 27rem;
   }
 }
 @media screen and (max-width: 1023px) {
-  .banner_image__text:not(:last-child) {
-    margin: 0 0 1.9rem 0;
+  .banner_v2 {
+    padding: 24.5rem var(--gl-indent) 5.2rem;
   }
 }
-@media screen and (min-width: 1024px) {
-  .banner_image__text p:not(:last-child) {
-    margin: 0 0 1rem 0;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .banner_image__text p:not(:last-child) {
-    margin: 0 0 0.7rem 0;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .banner_image__text {
-    line-height: 1.48;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .banner_image__text {
-    letter-spacing: -0.015em;
-    line-height: 1.45;
+@media screen and (max-width: 479px) {
+  .banner_v2 {
+    background-image: linear-gradient(270deg, #3f5611 0%, #556c12 17%, #4b6111 40%, #22350c 100%);
   }
 }
 
-.banner_image__img_w {
-  position: relative;
+.banner_v2__bg_w {
   display: block;
   width: 100%;
   height: 100%;
-}
-@media screen and (min-width: 1024px) {
-  .banner_image__img_w {
-    max-width: 64rem;
-    padding-bottom: 42%;
-    margin-left: auto;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .banner_image__img_w:not(.banner_image__wrap--reverse_mod .banner_image__img_w) {
-    margin-bottom: 2.5rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .banner_image__img_w {
-    padding-bottom: 81.1%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .banner_image__img_w:not(.banner_image__wrap--reverse_mod .banner_image__img_w) {
-    margin-right: -10.8rem;
-  }
-  .banner_image__wrap--reverse_mod .banner_image__img_w {
-    margin-left: -10.8rem;
-  }
-}
-
-.banner_image__img {
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: 0;
+}
+@media screen and (max-width: 479px) {
+  .banner_v2__bg_w {
+    opacity: 0.95;
+    max-height: 30.2rem;
+  }
+}
+
+.banner_v2__bg {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.banner_image__btn {
-  display: inline-flex;
+@media screen and (max-width: 479px) {
+  .banner_v2__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(7deg, #0a0404 0%, rgba(24, 9, 9, 0.96) 49%, rgba(45, 35, 28, 0.15) 100%);
+    opacity: 0.7;
+  }
 }
-.banner_image__btn:not(:last-child) {
-  margin-right: 2rem;
+
+.banner_v2__wrap {
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .banner_v2__col {
+    width: 40.5%;
+    margin-left: auto;
+  }
+}
+@media (max-width: 1023px) and (min-width: 767px) {
+  .banner_v2__col {
+    width: 63.5%;
+    margin-left: auto;
+  }
+}
+
+.banner_v2__title {
+  font-weight: 500;
+  letter-spacing: -0.018em;
+  color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .banner_v2__title {
+    font-size: 4.8rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v2__title {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner_v2__title:not(:last-child) {
+    margin-bottom: 1.7rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner_v2__title:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+.banner_v2__text {
+  font-weight: 400;
+  color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .banner_v2__text {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v2__text {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner_v2__text {
+    line-height: 1.49;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner_v2__text {
+    line-height: 1.45;
+    letter-spacing: -0.015em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner_v2__text:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v2__text:not(:last-child) {
+    margin-bottom: 2.3rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner_v2__text p:not(:last-child) {
+    margin-bottom: 0.9rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner_v2__text p:not(:last-child) {
+    margin-bottom: 0.7rem;
+  }
 }
 
 /*# sourceMappingURL=src_js_pages_steak-club_js.css.map*/

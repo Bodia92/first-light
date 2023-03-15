@@ -356,11 +356,6 @@ a.location_item__item_link:hover, a.location_item__item_link:focus {
   align-items: center;
   justify-content: center;
 }
-@media screen and (max-width: 1023px) {
-  .page-numbers {
-    display: none;
-  }
-}
 
 .page-numbers li {
   margin: 0 1rem;
